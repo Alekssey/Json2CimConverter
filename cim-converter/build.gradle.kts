@@ -16,7 +16,7 @@ dependencies {
     implementation(Libs.Log4j.slf4j)
     implementation(Libs.Log4j.core)
 
-    testImplementation(Libs.Test.junit_jupiter_engine)
-    testImplementation(Libs.Test.assertj_core)
+//    testImplementation(Libs.Test.junit_jupiter_engine)
+//    testImplementation(Libs.Test.assertj_core)
 
 }

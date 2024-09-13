@@ -44,39 +44,39 @@ object Libs {
         const val slf4j = "org.apache.logging.log4j:log4j-slf4j-impl:${LibVersion.log4j}"
     }
 
-    object Test {
-        const val junit_jupiter_engine = "org.junit.jupiter:junit-jupiter-engine:${LibVersion.junit}"
-        const val assertj_core = "org.assertj:assertj-core:${LibVersion.assertj}"
-        const val flapdoodle_spring = "de.flapdoodle.embed:de.flapdoodle.embed.mongo.spring27x:${LibVersion.flapdoodle}"
-        const val flapdoodle_mongo = "de.flapdoodle.embed:de.flapdoodle.embed.mongo:${LibVersion.flapdoodle}"
-        const val spring_starter_test = "org.springframework.boot:spring-boot-starter-test:${LibVersion.spring_boot}"
-        const val assertj_arrow_core = "in.rcard:assertj-arrow-core:${LibVersion.assertj_arrow}"
-    }
+//    object Test {
+//        const val junit_jupiter_engine = "org.junit.jupiter:junit-jupiter-engine:${LibVersion.junit}"
+//        const val assertj_core = "org.assertj:assertj-core:${LibVersion.assertj}"
+//        const val flapdoodle_spring = "de.flapdoodle.embed:de.flapdoodle.embed.mongo.spring27x:${LibVersion.flapdoodle}"
+//        const val flapdoodle_mongo = "de.flapdoodle.embed:de.flapdoodle.embed.mongo:${LibVersion.flapdoodle}"
+//        const val spring_starter_test = "org.springframework.boot:spring-boot-starter-test:${LibVersion.spring_boot}"
+//        const val assertj_arrow_core = "in.rcard:assertj-arrow-core:${LibVersion.assertj_arrow}"
+//    }
 
 
     object Spring {
 //        const val kafka = "org.springframework.kafka:spring-kafka:${LibVersion.spring_kafka}"
         const val starter_web = "org.springframework.boot:spring-boot-starter-web:${LibVersion.spring_boot}"
-        const val starter_webflux = "org.springframework.boot:spring-boot-starter-webflux:${LibVersion.spring_boot}"
-        const val starter_websocket =
-            "org.springframework.boot:spring-boot-starter-websocket:${LibVersion.spring_boot}"
-        const val starter_security =
-            "org.springframework.boot:spring-boot-starter-security:${LibVersion.spring_boot}"
-        const val starter_security_oauth2_client =
-            "org.springframework.boot:spring-boot-starter-oauth2-client:${LibVersion.spring_boot}"
-        const val starter_security_oauth2_resource_server =
-            "org.springframework.boot:spring-boot-starter-oauth2-resource-server:${LibVersion.spring_boot}"
-        const val starter_data_mongo =
-            "org.springframework.boot:spring-boot-starter-data-mongodb:${LibVersion.spring_boot}"
+//        const val starter_webflux = "org.springframework.boot:spring-boot-starter-webflux:${LibVersion.spring_boot}"
+//        const val starter_websocket =
+//            "org.springframework.boot:spring-boot-starter-websocket:${LibVersion.spring_boot}"
+//        const val starter_security =
+//            "org.springframework.boot:spring-boot-starter-security:${LibVersion.spring_boot}"
+//        const val starter_security_oauth2_client =
+//            "org.springframework.boot:spring-boot-starter-oauth2-client:${LibVersion.spring_boot}"
+//        const val starter_security_oauth2_resource_server =
+//            "org.springframework.boot:spring-boot-starter-oauth2-resource-server:${LibVersion.spring_boot}"
+//        const val starter_data_mongo =
+//            "org.springframework.boot:spring-boot-starter-data-mongodb:${LibVersion.spring_boot}"
 
-        const val security_messaging =
-            "org.springframework.security:spring-security-messaging:${LibVersion.spring_boot_messaging}"
+//        const val security_messaging =
+//            "org.springframework.security:spring-security-messaging:${LibVersion.spring_boot_messaging}"
     }
 
     object Actuator {
         const val spring_starter_actuator =
             "org.springframework.boot:spring-boot-starter-actuator:${LibVersion.spring_boot}"
-        const val prometheus = "io.micrometer:micrometer-registry-prometheus:${LibVersion.prometheus}"
+//        const val prometheus = "io.micrometer:micrometer-registry-prometheus:${LibVersion.prometheus}"
     }
 
     object Javax {
