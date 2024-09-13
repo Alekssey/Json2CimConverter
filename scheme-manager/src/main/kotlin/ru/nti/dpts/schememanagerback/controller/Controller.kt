@@ -9,7 +9,7 @@ import ru.nti.dtps.cimconverter.CimConverter
 class Controller(
         private val converterService: Service
 ) {
-    @PostMapping("/json/to/cim")
+    @PostMapping("converter/json-to-cim")
     fun convertCimToScheme(
             @RequestBody schemeDescriptionJson: String
     ): String {
