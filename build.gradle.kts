@@ -35,10 +35,6 @@ subprojects {
         plugin(Plugins.ktLintId)
     }
 
-//    ktlint {
-//        disabledRules.set(setOf("no-wildcard-imports"))
-//    }
-
     configurations.all {
         resolutionStrategy {
             eachDependency {
@@ -65,22 +61,11 @@ subprojects {
 
         withType<Test> {
             useJUnitPlatform()
-
-//            testLogging {
-//                events(
-//                    org.gradle.api.tasks.testing.logging.TestLogEvent.PASSED,
-//                    org.gradle.api.tasks.testing.logging.TestLogEvent.FAILED,
-//                    org.gradle.api.tasks.testing.logging.TestLogEvent.SKIPPED
-//                )
-//                showStandardStreams = true
-//                exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
-//            }
         }
     }
 }
 
 fun getAccessToken(environmentVariableName: String, gradlePropertyName: String): String {
-//    return "glpat-MWy5bGriDHtv5MPjg1i4"
     return getJobToken()
         ?: System.getenv(environmentVariableName)
         ?: findProperty(gradlePropertyName) as String?
