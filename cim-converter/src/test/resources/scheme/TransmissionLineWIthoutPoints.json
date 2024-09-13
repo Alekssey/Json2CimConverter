@@ -1,0 +1,254 @@
+{
+  "locked": false,
+  "offsetX": -547.1690834653523,
+  "offsetY": 68.57771240942478,
+  "zoom": 181.84414724800098,
+  "version": 1,
+  "nodes": {
+    "4e69d95d-c9ca-4d2e-8d93-08a00ee156fd": {
+      "id": "4e69d95d-c9ca-4d2e-8d93-08a00ee156fd",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 515.8497576736672,
+        "y": -12.8610662358643
+      },
+      "dimensions": {
+        "width": 40,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "3279bf0c-1c7b-4063-abe1-186bb63a7fde",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "4e69d95d-c9ca-4d2e-8d93-08a00ee156fd",
+          "links": [
+            "40c07bfe-84f9-4839-9336-597d95a94247"
+          ],
+          "libId": "FIRST",
+          "coords": {
+            "x": 634.3437837221704,
+            "y": 55.64063259241846
+          }
+        }
+      ],
+      "hour": 2,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "POWER_SYSTEM_EQUIVALENT",
+      "fields": {
+        "FREQUENCY": "50",
+        "VOLTAGE_LINE_TO_LINE": "115",
+        "ANGLE_OF_PHASE_A": "0",
+        "IMPEDANCE_POS_NEG_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_POS_NEG_SEQ": "87",
+        "IMPEDANCE_ZERO_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_ZERO_SEQ": "87",
+        "EMF_TIME_CONSTANT": "0.05",
+        "NAME": "E1",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "VOLTAGE_LINE_TO_LINE": {
+          "value": "115",
+          "min": 1.0E-7,
+          "max": 10000
+        },
+        "ANGLE_OF_PHASE_A": {
+          "value": "0",
+          "min": -180,
+          "max": 180
+        }
+      }
+    },
+    "2471a72a-8594-4291-b4c9-35489a8f41c0": {
+      "id": "2471a72a-8594-4291-b4c9-35489a8f41c0",
+      "locked": false,
+      "selected": false,
+      "coords": {
+        "x": 630.0500807754444,
+        "y": 103.10016155088854
+      },
+      "dimensions": {
+        "width": 20,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "3de5d02e-de2c-4350-80ab-8ab58c4aea3f",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "2471a72a-8594-4291-b4c9-35489a8f41c0",
+          "links": [
+            "40c07bfe-84f9-4839-9336-597d95a94247"
+          ],
+          "libId": "FIRST",
+          "coords": {
+            "x": 635.5500807754444,
+            "y": 100.60016155088854
+          },
+          "points": []
+        },
+        {
+          "id": "3092a43b-5974-4cff-9279-8c26a4c7a7a2",
+          "locked": false,
+          "selected": false,
+          "alignment": "BOTTOM",
+          "parentNode": "2471a72a-8594-4291-b4c9-35489a8f41c0",
+          "links": [
+            "e9a2fa1a-507c-4f17-8d6c-ee7f8ca96191"
+          ],
+          "libId": "SECOND",
+          "coords": {
+            "x": 635.5500807754444,
+            "y": 160.60016155088852
+          },
+          "points": []
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "TRANSMISSION_LINE_SEGMENT",
+      "fields": {
+        "FREQUENCY": "50",
+        "LENGTH": "40",
+        "VOLTAGE_LEVEL": "KILOVOLTS_110",
+        "RESISTANCE_PER_LENGTH_POS_NEG_SEQ": "0.116",
+        "REACTANCE_PER_LENGTH_POS_NEG_SEQ": "0.4",
+        "SUSCEPTANCE_PER_LENGTH_POS_NEG_SEQ": "2.7",
+        "RESISTANCE_PER_LENGTH_ZERO_SEQ": "1.16",
+        "REACTANCE_PER_LENGTH_ZERO_SEQ": "1.2",
+        "SUSCEPTANCE_PER_LENGTH_ZERO_SEQ": "2.25",
+        "USE_CONCENTRATED_PARAMETERS": "disabled",
+        "NAME": "TR",
+        "TRANSMISSION_LINE": "noId"
+      },
+      "controls": {}
+    },
+    "9e1d49af-a87d-4153-8665-ec91fe688f27": {
+      "id": "9e1d49af-a87d-4153-8665-ec91fe688f27",
+      "locked": false,
+      "selected": true,
+      "coords": {
+        "x": 590.6962843295639,
+        "y": 206.63812600969305
+      },
+      "dimensions": {
+        "width": 20,
+        "height": 60
+      },
+      "ports": [
+        {
+          "id": "da018ade-208f-4cc1-93b3-d4fbec8a44b6",
+          "locked": false,
+          "selected": false,
+          "alignment": "TOP",
+          "parentNode": "9e1d49af-a87d-4153-8665-ec91fe688f27",
+          "links": [
+            "e9a2fa1a-507c-4f17-8d6c-ee7f8ca96191"
+          ],
+          "libId": "FIRST",
+          "coords": {
+            "x": 635.2453212953732,
+            "y": 215.13281762734755
+          }
+        }
+      ],
+      "hour": 0,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "LOAD",
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "111",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled",
+        "NAME": "LOAD",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "ACTIVE_POWER": {
+          "value": "13.92",
+          "min": 1.0E-7,
+          "max": 10000
+        },
+        "REACTIVE_POWER": {
+          "value": "7.89",
+          "min": 1.0E-7,
+          "max": 9000
+        }
+      }
+    }
+  },
+  "links": {
+    "40c07bfe-84f9-4839-9336-597d95a94247": {
+      "id": "40c07bfe-84f9-4839-9336-597d95a94247",
+      "locked": false,
+      "selected": false,
+      "source": "4e69d95d-c9ca-4d2e-8d93-08a00ee156fd",
+      "sourcePort": "3279bf0c-1c7b-4063-abe1-186bb63a7fde",
+      "target": "2471a72a-8594-4291-b4c9-35489a8f41c0",
+      "targetPort": "3de5d02e-de2c-4350-80ab-8ab58c4aea3f",
+      "points": [
+        {
+          "id": "5499555c-33be-40fe-884e-d399ed1ba5cf",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 638.8437795808512,
+            "y": 58.14062790878369
+          }
+        },
+        {
+          "id": "cbe7144f-219c-4c07-9924-b3132a804ebf",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 640.0469353449364,
+            "y": 103.09375532455323
+          }
+        }
+      ],
+      "voltageLevelId": "KILOVOLTS_110",
+      "alignmentType": "RECTANGULAR"
+    },
+    "e9a2fa1a-507c-4f17-8d6c-ee7f8ca96191": {
+      "id": "e9a2fa1a-507c-4f17-8d6c-ee7f8ca96191",
+      "locked": false,
+      "selected": false,
+      "source": "9e1d49af-a87d-4153-8665-ec91fe688f27",
+      "sourcePort": "da018ade-208f-4cc1-93b3-d4fbec8a44b6",
+      "target": "2471a72a-8594-4291-b4c9-35489a8f41c0",
+      "targetPort": "3092a43b-5974-4cff-9279-8c26a4c7a7a2",
+      "points": [
+        {
+          "id": "10b65585-3bcf-4788-8304-3df566cea078",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 639.745317154054,
+            "y": 217.63282009241848
+          }
+        },
+        {
+          "id": "73524326-8990-42e2-a48b-f881f9425757",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 640.0469353449364,
+            "y": 163.09375729660997
+          }
+        }
+      ],
+      "voltageLevelId": "KILOVOLTS_110",
+      "alignmentType": "RECTANGULAR"
+    }
+  },
+  "metaSchemeChangeSetId": 9,
+  "metaSchemeVersion": "2.1.4"
+}

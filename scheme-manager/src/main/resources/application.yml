@@ -1,0 +1,126 @@
+server:
+  port: 8999
+  tomcat:
+    max-http-form-post-size: 50MB
+
+spring:
+  profiles:
+    active: "local"
+  security:
+    oauth2:
+      resource-server:
+        jwt:
+          issuer-uri: http://192.168.123.99:8080/realms/dev-stand
+          jwk-set-uri: http://192.168.123.99:8080/realms/dev-stand/protocol/openid-connect/certs
+      client:
+        registration:
+          keycloak:
+            client-id: scheme-manager-back
+            client-secret: GBVoxMS3GzDFron81ANzUqmpsvox5uYL
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            token-uri: http://192.168.123.99:8080/realms/dev-stand/protocol/openid-connect/token
+  messages:
+    basename: i18n/messages
+    encoding: utf-8
+    fallback-to-system-locale: false
+#  data:
+#    mongodb:
+#      uri: mongodb://dev:123@192.168.123.103:27017/scheme-manager-test?authSource=admin
+#  kafka:
+#    bootstrap-servers: localhost:29092
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+app:
+  language: ru
+  allowed-equipment-number: 10000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,prometheus
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+logging:
+  level:
+    org:
+      springframework: INFO
+    ru:
+      nti: DEBUG
+
+services:
+  address:
+    integration-platform: http://${INTEGRATION_PLATFORM_URL}
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "dev"
+  security:
+    oauth2:
+      resource-server:
+        jwt:
+          issuer-uri: ${KEYCLOAK_ISSUER_URI}
+          jwk-set-uri: ${KEYCLOAK_JWK_SET_URI}
+      client:
+        registration:
+          keycloak:
+            client-id: ${KEYCLOAK_CLIENT_ID}
+            client-secret: ${KEYCLOAK_CLIENT_SECRET}
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            token-uri: ${KEYCLOAK_TOKEN_URI}
+#  data:
+#    mongodb:
+#      uri: ${SPRING_DATA_MONGODB_URI}
+#  kafka:
+#    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVERS_URL}
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+  security:
+    oauth2:
+      resource-server:
+        jwt:
+          issuer-uri: ${KEYCLOAK_ISSUER_URI}
+          jwk-set-uri: ${KEYCLOAK_JWK_SET_URI}
+      client:
+        registration:
+          keycloak:
+            client-id: ${KEYCLOAK_CLIENT_ID}
+            client-secret: ${KEYCLOAK_CLIENT_SECRET}
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            token-uri: ${KEYCLOAK_TOKEN_URI}
+#  data:
+#    mongodb:
+#      uri: ${SPRING_DATA_MONGODB_URI}
+#  kafka:
+#    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVERS_URL}
+#    sasl:
+#      username: ${KAFKA_USERNAME}
+#      password: ${KAFKA_PASSWORD}
+#      mechanism: ${KAFKA_SASL_MECHANISM}
+#      security-protocol: ${KAFKA_SECURITY_PROTOCOL}
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB

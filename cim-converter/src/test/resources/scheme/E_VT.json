@@ -1,0 +1,149 @@
+{
+  "locked": false,
+  "zoom": 1,
+  "offsetX": 0,
+  "offsetY": 0,
+  "version": 1,
+  "metaSchemeChangeSetId": 9,
+  "metaSchemeVersion": "2.1.4",
+  "nodes": {
+    "1f8a3713-99ab-4038-b942-4f50afcc35d6": {
+      "id": "1f8a3713-99ab-4038-b942-4f50afcc35d6",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "POWER_SYSTEM_EQUIVALENT",
+      "hour": 2,
+      "coords": {
+        "x": 2052.3961661341846,
+        "y": 445.98509052183164
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "SUBSTATION": "noId",
+        "NAME": "E1",
+        "FREQUENCY": "50",
+        "VOLTAGE_LINE_TO_LINE": "115",
+        "ANGLE_OF_PHASE_A": "0",
+        "IMPEDANCE_POS_NEG_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_POS_NEG_SEQ": "87",
+        "IMPEDANCE_ZERO_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_ZERO_SEQ": "87",
+        "EMF_TIME_CONSTANT": "0.05",
+        "GENERATION_NODE_TYPE": "generation",
+        "ACTIVE_POWER": "10",
+        "REACTIVE_POWER_MIN": "7",
+        "REACTIVE_POWER_MAX": "15"
+      },
+      "controls": {
+        "VOLTAGE_LINE_TO_LINE": {
+          "value": "115",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "ANGLE_OF_PHASE_A": {
+          "value": "0",
+          "min": -180,
+          "max": 180
+        }
+      },
+      "ports": [
+        {
+          "id": "17419313-4614-4f0a-9dc2-a430548a2c82",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "1f8a3713-99ab-4038-b942-4f50afcc35d6",
+          "coords": {
+            "x": 2170.8906582800846,
+            "y": 514.484364079972
+          },
+          "alignment": "TOP",
+          "links": [
+            "469cf9e8-3d8b-44e4-ae3a-02a3a57c86f5"
+          ],
+          "points": []
+        }
+      ]
+    },
+    "fc776f39-2524-4021-a02d-0ba72030b4c4": {
+      "id": "fc776f39-2524-4021-a02d-0ba72030b4c4",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "VOLTAGE_TRANSFORMER",
+      "hour": 0,
+      "coords": {
+        "x": 2123.7486687965916,
+        "y": 543.3120340788072
+      },
+      "dimensions": {
+        "height": 40,
+        "width": 40
+      },
+      "fields": {
+        "SUBSTATION": "noId",
+        "NAME": "Трансформатор напряжения",
+        "FIRST_WINDING_RATED_VOLTAGE": "110",
+        "SECOND_WINDING_RATED_VOLTAGE": "0.1"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "434def94-82f6-49b9-a439-a8fe43cf4c21",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "fc776f39-2524-4021-a02d-0ba72030b4c4",
+          "coords": {
+            "x": 2171.4022095896557,
+            "y": 551.8046646199414
+          },
+          "alignment": "TOP",
+          "links": [
+            "469cf9e8-3d8b-44e4-ae3a-02a3a57c86f5"
+          ],
+          "points": []
+        }
+      ]
+    }
+  },
+  "links": {
+    "469cf9e8-3d8b-44e4-ae3a-02a3a57c86f5": {
+      "id": "469cf9e8-3d8b-44e4-ae3a-02a3a57c86f5",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "fc776f39-2524-4021-a02d-0ba72030b4c4",
+      "target": "1f8a3713-99ab-4038-b942-4f50afcc35d6",
+      "sourcePort": "434def94-82f6-49b9-a439-a8fe43cf4c21",
+      "targetPort": "17419313-4614-4f0a-9dc2-a430548a2c82",
+      "voltageLevelId": "KILOVOLTS_110",
+      "points": [
+        {
+          "id": "a04a2a43-60f9-4ffa-b85d-578fec1d68bb",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2175.9021711095575,
+            "y": 554.3046685199514
+          }
+        },
+        {
+          "id": "8e70c609-51a7-4276-89ac-acdd37af503e",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2175.3906848001525,
+            "y": 516.984367979982
+          }
+        }
+      ]
+    }
+  },
+  "substations": [],
+  "transmissionLines": []
+}

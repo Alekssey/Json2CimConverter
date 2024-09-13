@@ -1,0 +1,4006 @@
+{
+  "locked": false,
+  "zoom": 26.792405542645504,
+  "offsetX": -127.5253253165171,
+  "offsetY": -0.5237010177805104,
+  "version": 17,
+  "metaSchemeChangeSetId": 5,
+  "metaSchemeVersion": "2.0.0",
+  "nodes": {
+    "94d097b8-8f44-41b8-9ba6-3e73a59d72ad": {
+      "id": "94d097b8-8f44-41b8-9ba6-3e73a59d72ad",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "POWER_SYSTEM_EQUIVALENT",
+      "hour": 2,
+      "coords": {
+        "x": 563.6009181812437,
+        "y": 245.56773169936002
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "VOLTAGE_LINE_TO_LINE": "115",
+        "ANGLE_OF_PHASE_A": "0",
+        "IMPEDANCE_POS_NEG_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_POS_NEG_SEQ": "87",
+        "IMPEDANCE_ZERO_SEQ": "5",
+        "ANGLE_OF_IMPEDANCE_ZERO_SEQ": "87",
+        "EMF_TIME_CONSTANT": "0.05",
+        "GENERATION_NODE_TYPE": "generation",
+        "ACTIVE_POWER": "10",
+        "REACTIVE_POWER_MIN": "7",
+        "REACTIVE_POWER_MAX": "15",
+        "NAME": "Эквивалент энергосистемы",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "VOLTAGE_LINE_TO_LINE": {
+          "value": "115",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "ANGLE_OF_PHASE_A": {
+          "value": "0",
+          "min": -180,
+          "max": 180
+        }
+      },
+      "ports": [
+        {
+          "id": "4fd44629-f820-4831-b3cd-e9948cde5e58",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "94d097b8-8f44-41b8-9ba6-3e73a59d72ad",
+          "coords": {
+            "x": 682.093719440618,
+            "y": 314.062507442071
+          },
+          "alignment": "TOP",
+          "links": [
+            "b52a60b8-a3f6-4c3d-a07e-cdd63b86c467"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Эквивалент энергосистемы",
+      "substationId": "noId"
+    },
+    "32f17d46-32c3-44d7-ad38-008695372786": {
+      "id": "32f17d46-32c3-44d7-ad38-008695372786",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "BUS",
+      "hour": 0,
+      "coords": {
+        "x": 609.5283018867924,
+        "y": 351.1037735849057
+      },
+      "dimensions": {
+        "height": 7,
+        "width": 370
+      },
+      "fields": {
+        "NAME": "Шина",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "a66844cb-4220-4b80-8ed5-83b307c43585",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "32f17d46-32c3-44d7-ad38-008695372786",
+          "coords": {
+            "x": 227,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "d9e020e2-d3f6-46c2-9fe0-99067c554139"
+          ],
+          "points": []
+        },
+        {
+          "id": "057b4df2-834b-45c1-9082-08b93c6503da",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "32f17d46-32c3-44d7-ad38-008695372786",
+          "coords": {
+            "x": 63,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "b52a60b8-a3f6-4c3d-a07e-cdd63b86c467"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Шина",
+      "substationId": "noId"
+    },
+    "ec041ada-3213-4d2a-9276-875812a38957": {
+      "id": "ec041ada-3213-4d2a-9276-875812a38957",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "TWO_WINDING_POWER_TRANSFORMER",
+      "hour": 0,
+      "coords": {
+        "x": 786.3773584905659,
+        "y": 465.4716981132076
+      },
+      "dimensions": {
+        "height": 136,
+        "width": 48
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_APPARENT_POWER": "16",
+        "FIRST_WINDING_RATED_VOLTAGE": "115",
+        "SECOND_WINDING_RATED_VOLTAGE": "11",
+        "SHORT_CIRCUIT_VOLTAGE": "10.5",
+        "SHORT_CIRCUIT_ACTIVE_POWER": "85",
+        "IDLING_ACTIVE_POWER": "19",
+        "IDLING_CURRENT": "0.7",
+        "FIRST_WINDING_TYPE": "yg",
+        "SECOND_WINDING_TYPE": "d11",
+        "SATURATION_EXIST": "no",
+        "MAGNETIZATION_VOLTAGE": "1.17",
+        "AIR_CORE_RESISTANCE": "0.2",
+        "SATURATION_COEFFICIENT": "1.25",
+        "TAP_CHANGER_EXISTENCE": "disabled",
+        "TAP_CHANGER_INSTALLATION_WINDING": "onFirstWinding",
+        "TAP_CHANGER_DEFAULT_POSITION": "0",
+        "TAP_CHANGER_VOLTAGE_CHANGE": "1.78",
+        "TAP_CHANGER_MAX_POSITION": "9",
+        "TAP_CHANGER_MIN_POSITION": "-9",
+        "NAME": "Двухобмоточный трансформатор",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "25de3eab-0615-4591-9d73-26065db0033f",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "ec041ada-3213-4d2a-9276-875812a38957",
+          "coords": {
+            "x": 844.4350301491314,
+            "y": 473.96873075637484
+          },
+          "alignment": "TOP",
+          "links": [
+            "d9e020e2-d3f6-46c2-9fe0-99067c554139"
+          ],
+          "points": []
+        },
+        {
+          "id": "a0b4af73-8691-4e5a-8b90-8f7e243743f7",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "ec041ada-3213-4d2a-9276-875812a38957",
+          "coords": {
+            "x": 844.4350301491314,
+            "y": 609.9687344393448
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "3bacf51e-3915-4b8b-b00b-196068b7ccdf"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Двухобмоточный трансформатор",
+      "substationId": "noId"
+    },
+    "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd": {
+      "id": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "BUS",
+      "hour": 0,
+      "coords": {
+        "x": 634.4339622641509,
+        "y": 755.2547169811321
+      },
+      "dimensions": {
+        "height": 7,
+        "width": 2682.983109732447
+      },
+      "fields": {
+        "NAME": "Шина2",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "bc733857-3b91-4c86-93d0-339e76ba6017",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 286,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "0f17d968-19a2-4ee7-8380-fef3ced05187"
+          ],
+          "points": []
+        },
+        {
+          "id": "a335055a-0352-4c17-ada0-b815ff7a47b1",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 64,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "3520c0b3-e4ed-4cbe-aed4-7db2543e0ce1"
+          ],
+          "points": []
+        },
+        {
+          "id": "77631d05-0c1a-4ddd-a2c7-fbeb0d7a80f3",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 100,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "ecd12ae1-123e-4bcb-b2f5-c68407fa0cef"
+          ],
+          "points": []
+        },
+        {
+          "id": "2de69c8f-e51d-4e74-bc88-246818f1d685",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 596,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "f16e4fdb-56ea-4f6a-87d5-1e2e2c5438aa"
+          ],
+          "points": []
+        },
+        {
+          "id": "6f36f4f9-aa54-4b00-a270-e1dae44e2dae",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 482,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "e785cd85-5daf-4844-a68d-0ce8d79dd957"
+          ],
+          "points": []
+        },
+        {
+          "id": "7fcfd1d5-8d60-4fb6-af33-f5bf592984f4",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 359,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "6ddbad53-f90a-41d0-8f2d-b09a5db93582"
+          ],
+          "points": []
+        },
+        {
+          "id": "66283b27-b1e5-4059-aba5-695936aba837",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 1207,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "efc98222-5f4e-4880-8a42-86a8c0e3f468"
+          ],
+          "points": []
+        },
+        {
+          "id": "25911192-b55f-4960-9639-407ff39bf061",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 1366,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "e7b10ab3-ffeb-4526-8ca9-2afad7431119"
+          ],
+          "points": []
+        },
+        {
+          "id": "d49547b2-98be-4308-8ef0-4991afb3732e",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 1761,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "e51c050f-9d2e-426c-9ff2-a3a290d1e79c"
+          ],
+          "points": []
+        },
+        {
+          "id": "ec837beb-02cc-4fb6-8434-a83923c40fce",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 1970,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "48f81ace-2cc8-4729-bed8-20bec5244910"
+          ],
+          "points": []
+        },
+        {
+          "id": "e42e3d98-2d6c-4f35-a848-b1659b91b204",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 2139,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "d3376a56-ac97-4434-9afb-c6a3eb9c4478"
+          ],
+          "points": []
+        },
+        {
+          "id": "d5d91d75-e136-42ce-b22e-2832b679effc",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 2291,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "2d2ed651-1084-4891-850c-0d8a86abcfe0"
+          ],
+          "points": []
+        },
+        {
+          "id": "9b7fd594-c0fa-46a2-86e8-61ea641832c8",
+          "libId": "NO_ID",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+          "coords": {
+            "x": 2556,
+            "y": 3.5
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "d62c1f40-c0c1-46b7-9fa4-c52003487643"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Шина2",
+      "substationId": "noId"
+    },
+    "645e25e4-0c99-4256-b1e5-d34b1c2560bd": {
+      "id": "645e25e4-0c99-4256-b1e5-d34b1c2560bd",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "LOAD",
+      "hour": 0,
+      "coords": {
+        "x": 877.3584905660376,
+        "y": 933.6603773584906
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 20
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "10",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled",
+        "NAME": "Нагрузка",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "ACTIVE_POWER": {
+          "value": "13.92",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "REACTIVE_POWER": {
+          "value": "7.89",
+          "min": 1e-7,
+          "max": 9000
+        }
+      },
+      "ports": [
+        {
+          "id": "f7cc3f5d-60ad-4ea6-8eb7-30f71b0a63eb",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "645e25e4-0c99-4256-b1e5-d34b1c2560bd",
+          "coords": {
+            "x": 921.901595061784,
+            "y": 942.1561921068356
+          },
+          "alignment": "TOP",
+          "links": [
+            "0f17d968-19a2-4ee7-8380-fef3ced05187"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Нагрузка",
+      "substationId": "noId"
+    },
+    "f00da769-8fef-4a85-b185-64ff8321281e": {
+      "id": "f00da769-8fef-4a85-b185-64ff8321281e",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "ELECTRICITY_STORAGE_SYSTEM",
+      "hour": 0,
+      "coords": {
+        "x": 575.9756458356637,
+        "y": 945.1932346352334
+      },
+      "dimensions": {
+        "height": 56,
+        "width": 30
+      },
+      "fields": {
+        "CAPACITY": "360000",
+        "MAX_CURRENT": "1000",
+        "POLARIZATION_CONSTANT": "5e-7",
+        "INTERNAL_RESISTANCE": "1",
+        "INITIAL_CHARGE_PERCENTAGE": "70",
+        "ELECTRICITY_STORAGE_SYSTEM_MODE": "off",
+        "ACTIVE_POWER_OF_CHARGE_DISCHARGE": "1",
+        "NAME": "СНЭЭ",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "ELECTRICITY_STORAGE_SYSTEM_MODE": {
+          "value": "off",
+          "min": "NaN",
+          "max": "NaN"
+        },
+        "ACTIVE_POWER_OF_CHARGE_DISCHARGE": {
+          "value": "1",
+          "min": 1e-7,
+          "max": 90000000
+        }
+      },
+      "ports": [
+        {
+          "id": "23148795-8007-405d-9d8f-446a005c621f",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "f00da769-8fef-4a85-b185-64ff8321281e",
+          "coords": {
+            "x": 625.4688011918402,
+            "y": 953.687471425605
+          },
+          "alignment": "TOP",
+          "links": [
+            "06064f80-5549-4014-a676-e87c4947dff4"
+          ],
+          "points": []
+        }
+      ],
+      "name": "СНЭЭ",
+      "substationId": "noId"
+    },
+    "a008c0bc-4fd2-4023-8fb0-f580b1d7e9d4": {
+      "id": "a008c0bc-4fd2-4023-8fb0-f580b1d7e9d4",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "DISCONNECTOR",
+      "hour": 0,
+      "coords": {
+        "x": 748.7471135794033,
+        "y": 949.834532141378
+      },
+      "dimensions": {
+        "height": 55,
+        "width": 13
+      },
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100",
+        "NAME": "Разъединитель",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "POSITION": {
+          "value": "enabled",
+          "min": "NaN",
+          "max": "NaN"
+        }
+      },
+      "ports": [
+        {
+          "id": "5293137d-272e-48fb-9917-325475cba331",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a008c0bc-4fd2-4023-8fb0-f580b1d7e9d4",
+          "coords": {
+            "x": 789.7422814332798,
+            "y": 958.3281301100444
+          },
+          "alignment": "TOP",
+          "links": [
+            "5e6d9e11-6d89-4c9d-b08a-cc54fadaa578"
+          ],
+          "points": []
+        },
+        {
+          "id": "450683cc-ea70-4e42-87ec-d54f23a224a6",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a008c0bc-4fd2-4023-8fb0-f580b1d7e9d4",
+          "coords": {
+            "x": 789.7422814332798,
+            "y": 1013.3281340302533
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "12c127cc-6ab4-445e-857a-a593912dc0a1"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Разъединитель",
+      "substationId": "noId"
+    },
+    "8249827b-96ac-462e-8477-e3b297586557": {
+      "id": "8249827b-96ac-462e-8477-e3b297586557",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "CONNECTIVITY",
+      "hour": 0,
+      "coords": {
+        "x": 629.6277558930142,
+        "y": 882.0846895000499
+      },
+      "dimensions": {
+        "height": 0,
+        "width": 0
+      },
+      "fields": {
+        "NAME": "CN-8249827b-96ac-462e-8477-e3b297586557",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "37f07ad2-0158-46e9-9667-ececa2dedee1",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "8249827b-96ac-462e-8477-e3b297586557",
+          "coords": {
+            "x": 638.125014259117,
+            "y": 890.5781214170785
+          },
+          "alignment": "TOP",
+          "links": [
+            "06064f80-5549-4014-a676-e87c4947dff4",
+            "3520c0b3-e4ed-4cbe-aed4-7db2543e0ce1",
+            "5e6d9e11-6d89-4c9d-b08a-cc54fadaa578"
+          ],
+          "points": []
+        }
+      ],
+      "name": "CN-8249827b-96ac-462e-8477-e3b297586557",
+      "substationId": "noId"
+    },
+    "349c6942-e101-42ac-bf3f-cd2bfb758f44": {
+      "id": "349c6942-e101-42ac-bf3f-cd2bfb758f44",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "GROUND_DISCONNECTOR",
+      "hour": 0,
+      "coords": {
+        "x": 738.4645185671139,
+        "y": 1125.1494599015036
+      },
+      "dimensions": {
+        "height": 55,
+        "width": 17
+      },
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100",
+        "NAME": "Заземляющий нож",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "POSITION": {
+          "value": "enabled",
+          "min": "NaN",
+          "max": "NaN"
+        }
+      },
+      "ports": [
+        {
+          "id": "9e888ea8-7912-4afd-bcdc-4d840b1dc686",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "349c6942-e101-42ac-bf3f-cd2bfb758f44",
+          "coords": {
+            "x": 781.461031111353,
+            "y": 1139.5702583604575
+          },
+          "alignment": "TOP",
+          "links": [
+            "12c127cc-6ab4-445e-857a-a593912dc0a1"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Заземляющий нож",
+      "substationId": "noId"
+    },
+    "0c0a16f6-a82f-4906-a8d0-d90657cfcc0a": {
+      "id": "0c0a16f6-a82f-4906-a8d0-d90657cfcc0a",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "CIRCUIT_BREAKER",
+      "hour": 0,
+      "coords": {
+        "x": 683.870944369015,
+        "y": 652.529133836747
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100",
+        "NAME": "Выключатель",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "POSITION": {
+          "value": "enabled",
+          "min": "NaN",
+          "max": "NaN"
+        }
+      },
+      "ports": [
+        {
+          "id": "bcb0b4fd-e059-4633-85fa-fbe4b09dafe7",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "0c0a16f6-a82f-4906-a8d0-d90657cfcc0a",
+          "coords": {
+            "x": 738.3672844260826,
+            "y": 661.0234417453505
+          },
+          "alignment": "TOP",
+          "links": [
+            "3bacf51e-3915-4b8b-b00b-196068b7ccdf"
+          ],
+          "points": []
+        },
+        {
+          "id": "2f4d128e-100d-4838-82bf-7ef9b2061df8",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "0c0a16f6-a82f-4906-a8d0-d90657cfcc0a",
+          "coords": {
+            "x": 738.3672844260826,
+            "y": 721.0234503152546
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "ecd12ae1-123e-4bcb-b2f5-c68407fa0cef"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Выключатель",
+      "substationId": "noId"
+    },
+    "9ab5dcb8-e835-48d2-a56f-4449d86ba16c": {
+      "id": "9ab5dcb8-e835-48d2-a56f-4449d86ba16c",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "TWO_WINDING_AUTO_TRANSFORMER",
+      "hour": 0,
+      "coords": {
+        "x": 1109.0811419449499,
+        "y": 910.3352856689703
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 80
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_APPARENT_POWER": "16",
+        "FIRST_WINDING_RATED_VOLTAGE": "11",
+        "SECOND_WINDING_RATED_VOLTAGE": "115",
+        "SHORT_CIRCUIT_VOLTAGE": "10.5",
+        "SHORT_CIRCUIT_ACTIVE_POWER": "85",
+        "IDLING_ACTIVE_POWER": "19",
+        "IDLING_CURRENT": "0.7",
+        "FIRST_WINDING_TYPE": "y",
+        "SATURATION_EXIST": "no",
+        "MAGNETIZATION_VOLTAGE": "1.17",
+        "AIR_CORE_RESISTANCE": "0.2",
+        "SATURATION_COEFFICIENT": "1.25",
+        "TAP_CHANGER_EXISTENCE": "disabled",
+        "TAP_CHANGER_DEFAULT_POSITION": "0",
+        "TAP_CHANGER_VOLTAGE_CHANGE": "1.78",
+        "TAP_CHANGER_MAX_POSITION": "9",
+        "TAP_CHANGER_MIN_POSITION": "-9",
+        "NAME": "Двухобмоточный автотрансформатор",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "94490478-cf0a-4540-aaf1-62c849dab406",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "9ab5dcb8-e835-48d2-a56f-4449d86ba16c",
+          "coords": {
+            "x": 1237.2281754513715,
+            "y": 938.8281450347397
+          },
+          "alignment": "TOP",
+          "links": [
+            "f16e4fdb-56ea-4f6a-87d5-1e2e2c5438aa"
+          ],
+          "points": []
+        },
+        {
+          "id": "4575a1d2-11e0-4391-84b4-36d920d54b83",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "9ab5dcb8-e835-48d2-a56f-4449d86ba16c",
+          "coords": {
+            "x": 1307.5781884512364,
+            "y": 979.8281548263773
+          },
+          "alignment": "RIGHT",
+          "links": [
+            "702544d8-ccd9-461c-9593-9ad2a05b46c1"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Двухобмоточный автотрансформатор",
+      "substationId": "noId"
+    },
+    "7d8b266c-7bd2-4355-8a7a-13cec2545945": {
+      "id": "7d8b266c-7bd2-4355-8a7a-13cec2545945",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "THREE_WINDING_POWER_TRANSFORMER",
+      "hour": 0,
+      "coords": {
+        "x": 1460.5856144760098,
+        "y": 1049.5812962751647
+      },
+      "dimensions": {
+        "height": 136,
+        "width": 105
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_APPARENT_POWER": "16",
+        "FIRST_WINDING_RATED_VOLTAGE": "115",
+        "SECOND_WINDING_RATED_VOLTAGE": "34.5",
+        "THIRD_WINDING_RATED_VOLTAGE": "11",
+        "FIRST_SECOND_WINDING_SHORT_CIRCUIT_VOLTAGE": "10.5",
+        "FIRST_THIRD_WINDING_SHORT_CIRCUIT_VOLTAGE": "17",
+        "SECOND_THIRD_WINDING_SHORT_CIRCUIT_VOLTAGE": "6",
+        "SHORT_CIRCUIT_ACTIVE_POWER": "100",
+        "IDLING_ACTIVE_POWER": "23",
+        "IDLING_CURRENT": "1",
+        "FIRST_WINDING_TYPE": "yg",
+        "SECOND_WINDING_TYPE": "yg",
+        "THIRD_WINDING_TYPE": "d11",
+        "SATURATION_EXIST": "no",
+        "MAGNETIZATION_VOLTAGE": "1.17",
+        "AIR_CORE_RESISTANCE": "0.2",
+        "SATURATION_COEFFICIENT": "1.25",
+        "TAP_CHANGER_EXISTENCE": "disabled",
+        "TAP_CHANGER_INSTALLATION_WINDING": "onFirstWinding",
+        "TAP_CHANGER_DEFAULT_POSITION": "0",
+        "TAP_CHANGER_VOLTAGE_CHANGE": "1.78",
+        "TAP_CHANGER_MAX_POSITION": "9",
+        "TAP_CHANGER_MIN_POSITION": "-9",
+        "NAME": "Трехобмоточный трансформатор",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "4bed6661-1067-41a5-8b52-3f58660fa054",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "7d8b266c-7bd2-4355-8a7a-13cec2545945",
+          "coords": {
+            "x": 1593.928232302756,
+            "y": 1058.078111889334
+          },
+          "alignment": "TOP",
+          "links": [
+            "702544d8-ccd9-461c-9593-9ad2a05b46c1"
+          ],
+          "points": []
+        },
+        {
+          "id": "29013951-aef6-43ee-aa40-65bbb899f25a",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "7d8b266c-7bd2-4355-8a7a-13cec2545945",
+          "coords": {
+            "x": 1681.5782339992322,
+            "y": 1122.5780915854573
+          },
+          "alignment": "RIGHT",
+          "links": [
+            "75ff5da5-9e38-4dc8-8de1-33fac25c45fb"
+          ],
+          "points": []
+        },
+        {
+          "id": "3abc9e4e-69e5-41bf-a681-9c91f219c918",
+          "libId": "THIRD",
+          "locked": false,
+          "selected": false,
+          "parentNode": "7d8b266c-7bd2-4355-8a7a-13cec2545945",
+          "coords": {
+            "x": 1593.928232302756,
+            "y": 1194.078068345866
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "4557df45-9261-4504-92ce-deb3e53baeae"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Трехобмоточный трансформатор",
+      "substationId": "noId"
+    },
+    "9c52e4da-c1e0-4c23-820c-c6c64f3c5aa2": {
+      "id": "9c52e4da-c1e0-4c23-820c-c6c64f3c5aa2",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "THREE_WINDING_AUTO_TRANSFORMER",
+      "hour": 0,
+      "coords": {
+        "x": 1000.9341284092045,
+        "y": 1054.797464769275
+      },
+      "dimensions": {
+        "height": 136,
+        "width": 80
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_APPARENT_POWER": "16",
+        "FIRST_WINDING_RATED_VOLTAGE": "11",
+        "SECOND_WINDING_RATED_VOLTAGE": "34.5",
+        "THIRD_WINDING_RATED_VOLTAGE": "115",
+        "FIRST_SECOND_WINDING_SHORT_CIRCUIT_VOLTAGE": "10.5",
+        "FIRST_THIRD_WINDING_SHORT_CIRCUIT_VOLTAGE": "17",
+        "SECOND_THIRD_WINDING_SHORT_CIRCUIT_VOLTAGE": "6",
+        "IDLING_ACTIVE_POWER": "23",
+        "IDLING_CURRENT": "1",
+        "FIRST_WINDING_TYPE": "yg",
+        "THIRD_WINDING_TYPE": "d11",
+        "SATURATION_EXIST": "no",
+        "MAGNETIZATION_VOLTAGE": "1.17",
+        "AIR_CORE_RESISTANCE": "0.2",
+        "SATURATION_COEFFICIENT": "1.25",
+        "TAP_CHANGER_EXISTENCE": "disabled",
+        "TAP_CHANGER_DEFAULT_POSITION": "0",
+        "TAP_CHANGER_VOLTAGE_CHANGE": "1.78",
+        "TAP_CHANGER_MAX_POSITION": "9",
+        "TAP_CHANGER_MIN_POSITION": "-9",
+        "NAME": "Трехобмоточный автотрансформатор",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "9baf45b1-03e6-465c-8a92-504b217f58b7",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "9c52e4da-c1e0-4c23-820c-c6c64f3c5aa2",
+          "coords": {
+            "x": 1129.4297696885324,
+            "y": 1063.2968221725025
+          },
+          "alignment": "TOP",
+          "links": [
+            "e785cd85-5daf-4844-a68d-0ce8d79dd957"
+          ],
+          "points": []
+        },
+        {
+          "id": "33bd6aa1-05bc-4292-aa02-779fd8273fac",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "9c52e4da-c1e0-4c23-820c-c6c64f3c5aa2",
+          "coords": {
+            "x": 1199.4297403313888,
+            "y": 1117.296853498635
+          },
+          "alignment": "RIGHT",
+          "links": [
+            "c39df26e-d520-4dd0-857c-87d7e8891a4d"
+          ],
+          "points": []
+        },
+        {
+          "id": "87ded952-9392-4aa7-af54-a6f80c5ed9bb",
+          "libId": "THIRD",
+          "locked": false,
+          "selected": false,
+          "parentNode": "9c52e4da-c1e0-4c23-820c-c6c64f3c5aa2",
+          "coords": {
+            "x": 1129.4297696885324,
+            "y": 1199.2968730819105
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "ef39bd7c-d013-4b2a-b062-e2b488c7f5cb"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Трехобмоточный автотрансформатор",
+      "substationId": "noId"
+    },
+    "9488f7ae-16ef-4ed4-a287-78bdfd150e61": {
+      "id": "9488f7ae-16ef-4ed4-a287-78bdfd150e61",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "ASYNCHRONOUS_MOTOR",
+      "hour": 0,
+      "coords": {
+        "x": 1539.392707925735,
+        "y": 1364.5334307878072
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "RATED_ACTIVE_POWER": "2.2",
+        "RATED_VOLTAGE_LINE_TO_LINE": "10",
+        "FREQUENCY": "50",
+        "INERTIA_CONSTANT": "0.0058",
+        "DAMPING_COEFFICIENT": "0.01",
+        "REVERSE_ROTATION_ENABLED": "disabled",
+        "STATOR_ACTIVE_RESISTANCE": "0.0054",
+        "ROTOR_ACTIVE_RESISTANCE_REFERRED_TO_STATOR": "0.00607",
+        "STATOR_LEAKAGE_INDUCTANCE": "0.102",
+        "ROTOR_LEAKAGE_INDUCTANCE_REFERRED_TO_STATOR": "0.11",
+        "MUTUAL_INDUCTANCE_OF_ROTOR_STATOR": "4.362",
+        "MOTOR_OPERATION_MODE": "speed",
+        "SPEED": "1.0",
+        "LOAD_MOMENT": "1.0",
+        "NAME": "Асинхронный двигатель",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "MOTOR_OPERATION_MODE": {
+          "value": "speed",
+          "min": "NaN",
+          "max": "NaN"
+        },
+        "SPEED": {
+          "value": "1.0",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "LOAD_MOMENT": {
+          "value": "1.0",
+          "min": 1e-7,
+          "max": 10000
+        }
+      },
+      "ports": [
+        {
+          "id": "576baae2-2838-4ff4-b0e9-f92eee024808",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "9488f7ae-16ef-4ed4-a287-78bdfd150e61",
+          "coords": {
+            "x": 1593.8906400582634,
+            "y": 1387.4608858684803
+          },
+          "alignment": "TOP",
+          "links": [
+            "4557df45-9261-4504-92ce-deb3e53baeae"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Асинхронный двигатель",
+      "substationId": "noId"
+    },
+    "269357e8-cdb9-473c-9c99-b38bf76c20e9": {
+      "id": "269357e8-cdb9-473c-9c99-b38bf76c20e9",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "TRANSMISSION_LINE_SEGMENT",
+      "hour": 0,
+      "coords": {
+        "x": 988.8662173519422,
+        "y": 1184.892080867606
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 20
+      },
+      "fields": {
+        "LINE_PARAMETERS_TYPE": "manual",
+        "LENGTH": "40",
+        "VOLTAGE_LEVEL": "KILOVOLTS_10",
+        "FREQUENCY": "50",
+        "USE_CONCENTRATED_PARAMETERS": "enabled",
+        "RESISTANCE_PER_LENGTH_POS_NEG_SEQ": "0.116",
+        "REACTANCE_PER_LENGTH_POS_NEG_SEQ": "0.4",
+        "SUSCEPTANCE_PER_LENGTH_POS_NEG_SEQ": "2.7",
+        "RESISTANCE_PER_LENGTH_ZERO_SEQ": "1.16",
+        "REACTANCE_PER_LENGTH_ZERO_SEQ": "1.2",
+        "SUSCEPTANCE_PER_LENGTH_ZERO_SEQ": "2.25",
+        "RATED_ACTIVE_POWER": "100",
+        "NAME": "Сегмент ЛЭП",
+        "TRANSMISSION_LINE": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "6af71f4b-00a4-4ac2-b24c-dc7b1841285e",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "269357e8-cdb9-473c-9c99-b38bf76c20e9",
+          "coords": {
+            "x": 994.3662173519422,
+            "y": 1182.392080867606
+          },
+          "alignment": "TOP",
+          "links": [
+            "6ddbad53-f90a-41d0-8f2d-b09a5db93582"
+          ],
+          "points": []
+        },
+        {
+          "id": "4534e9e8-5601-436d-a262-7168c099af73",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "269357e8-cdb9-473c-9c99-b38bf76c20e9",
+          "coords": {
+            "x": 994.3662173519422,
+            "y": 1242.392080867606
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "6eea6330-b8a9-4229-8274-7cb877cfa022"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Сегмент ЛЭП",
+      "transmissionLineId": "noId"
+    },
+    "0d4b407d-3fec-4dab-a805-4f087d2b5c4f": {
+      "id": "0d4b407d-3fec-4dab-a805-4f087d2b5c4f",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "LOAD",
+      "hour": 0,
+      "coords": {
+        "x": 949.0722474329102,
+        "y": 1404.3274007068392
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 20
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "11",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled",
+        "NAME": "Нагрузка5464",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "ACTIVE_POWER": {
+          "value": "13.92",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "REACTIVE_POWER": {
+          "value": "7.89",
+          "min": 1e-7,
+          "max": 9000
+        }
+      },
+      "ports": [
+        {
+          "id": "6bc6f45b-3958-4685-a059-babba1cdb854",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "0d4b407d-3fec-4dab-a805-4f087d2b5c4f",
+          "coords": {
+            "x": 993.6203246821042,
+            "y": 1412.820255082212
+          },
+          "alignment": "TOP",
+          "links": [
+            "6eea6330-b8a9-4229-8274-7cb877cfa022"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Нагрузка5464",
+      "substationId": "noId"
+    },
+    "0d20975b-b79f-46ff-8bdf-23c6e46460cf": {
+      "id": "0d20975b-b79f-46ff-8bdf-23c6e46460cf",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_110",
+      "libEquipmentId": "LOAD",
+      "hour": 0,
+      "coords": {
+        "x": 1071.5169346770094,
+        "y": 1292.505664840653
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 20
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "110",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled",
+        "NAME": "Нагрузка5464clone",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "ACTIVE_POWER": {
+          "value": "13.92",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "REACTIVE_POWER": {
+          "value": "7.89",
+          "min": 1e-7,
+          "max": 9000
+        }
+      },
+      "ports": [
+        {
+          "id": "41705d04-93e4-405e-8b8f-337ead7bbc33",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "0d20975b-b79f-46ff-8bdf-23c6e46460cf",
+          "coords": {
+            "x": 1116.065726771439,
+            "y": 1306.1406436309658
+          },
+          "alignment": "TOP",
+          "links": [
+            "ef39bd7c-d013-4b2a-b062-e2b488c7f5cb"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Нагрузка5464clone",
+      "substationId": "noId"
+    },
+    "035d06ee-53e6-4560-9460-f4decd941829": {
+      "id": "035d06ee-53e6-4560-9460-f4decd941829",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_35",
+      "libEquipmentId": "LOAD",
+      "hour": 0,
+      "coords": {
+        "x": 1223.4202739289888,
+        "y": 1168.0587923996611
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 20
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "35",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled",
+        "NAME": "Нагрузка5464cloneclone",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "ACTIVE_POWER": {
+          "value": "13.92",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "REACTIVE_POWER": {
+          "value": "7.89",
+          "min": 1e-7,
+          "max": 9000
+        }
+      },
+      "ports": [
+        {
+          "id": "aeeecdb3-5e47-4152-879c-6776c5ea8bc6",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "035d06ee-53e6-4560-9460-f4decd941829",
+          "coords": {
+            "x": 1267.9641801562905,
+            "y": 1192.4609406625582
+          },
+          "alignment": "TOP",
+          "links": [
+            "c39df26e-d520-4dd0-857c-87d7e8891a4d"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Нагрузка5464cloneclone",
+      "substationId": "noId"
+    },
+    "73d251cd-eb34-4300-baf9-3c5c2eea35d6": {
+      "id": "73d251cd-eb34-4300-baf9-3c5c2eea35d6",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_35",
+      "libEquipmentId": "LOAD",
+      "hour": 0,
+      "coords": {
+        "x": 1719.007886606237,
+        "y": 1167.0576998012148
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 20
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "35",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled",
+        "NAME": "Нагрузка5464clonecloneclone",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "ACTIVE_POWER": {
+          "value": "13.92",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "REACTIVE_POWER": {
+          "value": "7.89",
+          "min": 1e-7,
+          "max": 9000
+        }
+      },
+      "ports": [
+        {
+          "id": "0b929757-05f9-4c0d-b6c7-dedae98a6fd7",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "73d251cd-eb34-4300-baf9-3c5c2eea35d6",
+          "coords": {
+            "x": 1763.5578517613758,
+            "y": 1202.226517924686
+          },
+          "alignment": "TOP",
+          "links": [
+            "75ff5da5-9e38-4dc8-8de1-33fac25c45fb"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Нагрузка5464clonecloneclone",
+      "substationId": "noId"
+    },
+    "763d7667-eceb-421e-a54f-eaf6a790b1ad": {
+      "id": "763d7667-eceb-421e-a54f-eaf6a790b1ad",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "SHORT_CIRCUIT",
+      "hour": 0,
+      "coords": {
+        "x": 1795.0683768830536,
+        "y": 1286.456866358002
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "RESISTANCE": "10",
+        "ENABLE_BY_UA_ZERO_CROSSING": "disabled",
+        "NAME": "Короткое замыкание",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "FAULT": {
+          "value": "disabled",
+          "min": "NaN",
+          "max": "NaN"
+        },
+        "SHORT_CIRCUIT_TYPE": {
+          "value": "abc",
+          "min": "NaN",
+          "max": "NaN"
+        },
+        "RESISTANCE": {
+          "value": "10",
+          "min": 1e-7,
+          "max": 90000
+        }
+      },
+      "ports": [
+        {
+          "id": "8e4d7da8-0f7b-4b34-aaca-302af72a01bd",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "763d7667-eceb-421e-a54f-eaf6a790b1ad",
+          "coords": {
+            "x": 1850.0625178882128,
+            "y": 1302.8437660078207
+          },
+          "alignment": "TOP",
+          "links": [
+            "efc98222-5f4e-4880-8a42-86a8c0e3f468"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Короткое замыкание",
+      "substationId": "noId"
+    },
+    "8e902180-f830-4a5a-9423-5d2b7b63222f": {
+      "id": "8e902180-f830-4a5a-9423-5d2b7b63222f",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "GROUNDING",
+      "hour": 0,
+      "coords": {
+        "x": 1953.583980544504,
+        "y": 1301.88758883832
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "NAME": "Земля",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "a5ff7274-059f-4816-b832-4d164a25d3ee",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "8e902180-f830-4a5a-9423-5d2b7b63222f",
+          "coords": {
+            "x": 2008.078211761905,
+            "y": 1310.382805633209
+          },
+          "alignment": "TOP",
+          "links": [
+            "e7b10ab3-ffeb-4526-8ca9-2afad7431119"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Земля",
+      "substationId": "noId"
+    },
+    "bd6a499a-27fd-4e36-ac9e-e13bdc850fdf": {
+      "id": "bd6a499a-27fd-4e36-ac9e-e13bdc850fdf",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "RESISTANCE",
+      "hour": 0,
+      "coords": {
+        "x": 2349.171593221752,
+        "y": 906.2999761610718
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "RESISTANCE": "5",
+        "NAME": "Резистор",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "RESISTANCE": {
+          "value": "5",
+          "min": 9e-7,
+          "max": 90000000
+        }
+      },
+      "ports": [
+        {
+          "id": "b44b3347-406e-4831-bbd9-3f05108fafbb",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "bd6a499a-27fd-4e36-ac9e-e13bdc850fdf",
+          "coords": {
+            "x": 2403.1640117138113,
+            "y": 914.7968777049514
+          },
+          "alignment": "TOP",
+          "links": [
+            "e51c050f-9d2e-426c-9ff2-a3a290d1e79c"
+          ],
+          "points": []
+        },
+        {
+          "id": "3a2006c7-66da-433a-9f8d-1c6afe1d9a50",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "bd6a499a-27fd-4e36-ac9e-e13bdc850fdf",
+          "coords": {
+            "x": 2403.1640117138113,
+            "y": 974.7968390484176
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "844d6819-9d05-4651-a8bc-4cf9354c9a15"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Резистор",
+      "substationId": "noId"
+    },
+    "69d7fd8a-2168-400e-8c85-9d87779fbf25": {
+      "id": "69d7fd8a-2168-400e-8c85-9d87779fbf25",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "INDUCTANCE",
+      "hour": 0,
+      "coords": {
+        "x": 2368.8106945603386,
+        "y": 1050.7876502949603
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "INDUCTANCE": "5",
+        "NAME": "Индуктивность",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "INDUCTANCE": {
+          "value": "5",
+          "min": 9e-12,
+          "max": 90000000
+        }
+      },
+      "ports": [
+        {
+          "id": "89c0e7ec-3ae4-40d0-b889-78ba16c0094b",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "69d7fd8a-2168-400e-8c85-9d87779fbf25",
+          "coords": {
+            "x": 2422.804731573774,
+            "y": 1059.281252618846
+          },
+          "alignment": "TOP",
+          "links": [
+            "844d6819-9d05-4651-a8bc-4cf9354c9a15"
+          ],
+          "points": []
+        },
+        {
+          "id": "31d96eb4-2d99-4729-a1ea-907c56dccbeb",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "69d7fd8a-2168-400e-8c85-9d87779fbf25",
+          "coords": {
+            "x": 2422.804731573774,
+            "y": 1119.2812139623122
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "972e8118-f07d-4208-b4ba-51fdfad5912c"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Индуктивность",
+      "substationId": "noId"
+    },
+    "0828b74b-a2cd-4e95-802a-5646af314627": {
+      "id": "0828b74b-a2cd-4e95-802a-5646af314627",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "CAPACITANCE",
+      "hour": 0,
+      "coords": {
+        "x": 2373.019073418607,
+        "y": 1188.2613596650679
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "CAPACITANCE": "1e-5",
+        "NAME": "Емкость",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "CAPACITANCE": {
+          "value": "1e-5",
+          "min": 9e-20,
+          "max": 90000000
+        }
+      },
+      "ports": [
+        {
+          "id": "26dfc516-7dbc-45b3-a519-3fbcb71ca027",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "0828b74b-a2cd-4e95-802a-5646af314627",
+          "coords": {
+            "x": 2427.0156296741907,
+            "y": 1196.7577908797793
+          },
+          "alignment": "TOP",
+          "links": [
+            "972e8118-f07d-4208-b4ba-51fdfad5912c"
+          ],
+          "points": []
+        },
+        {
+          "id": "7a1bd21b-d415-4496-a2a6-d3898c3b0c95",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "0828b74b-a2cd-4e95-802a-5646af314627",
+          "coords": {
+            "x": 2427.0156296741907,
+            "y": 1256.7577522232457
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "7d33a09c-c80f-49e0-8f6a-d95d3536735d"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Емкость",
+      "substationId": "noId"
+    },
+    "7d8d1887-fcc0-424f-ab01-7514aa4b3b8d": {
+      "id": "7d8d1887-fcc0-424f-ab01-7514aa4b3b8d",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "LOAD",
+      "hour": 0,
+      "coords": {
+        "x": 2385.8246593241197,
+        "y": 1372.02723647613
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 20
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "10",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled",
+        "NAME": "Нагрузка5436",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "ACTIVE_POWER": {
+          "value": "13.92",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "REACTIVE_POWER": {
+          "value": "7.89",
+          "min": 1e-7,
+          "max": 9000
+        }
+      },
+      "ports": [
+        {
+          "id": "3f12e290-94c6-4e53-beb1-48e78a8b11a9",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "7d8d1887-fcc0-424f-ab01-7514aa4b3b8d",
+          "coords": {
+            "x": 2430.370406910084,
+            "y": 1380.523416607848
+          },
+          "alignment": "TOP",
+          "links": [
+            "7d33a09c-c80f-49e0-8f6a-d95d3536735d"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Нагрузка5436",
+      "substationId": "noId"
+    },
+    "44263150-3a6f-4965-acec-7ca3b615fd35": {
+      "id": "44263150-3a6f-4965-acec-7ca3b615fd35",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "SYNCHRONOUS_GENERATOR",
+      "hour": 0,
+      "coords": {
+        "x": 2553.9793643241574,
+        "y": 994.6759321847123
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "10",
+        "RATED_APPARENT_POWER": "100",
+        "INITIAL_SPEED": "0",
+        "INITIAL_ROTATION_ANGLE": "0",
+        "INERTIA_CONSTANT": "0.0058",
+        "STATOR_LEAKAGE_REACTANCE": "0.102",
+        "VISCOUS_FRICTION_COEFFICIENT": "0.1",
+        "STATOR_ACTIVE_RESISTANCE": "0.02",
+        "STATOR_ROTOR_MUTUAL_INDUCTANCE_Q_AXIS": "1.58",
+        "DRIVING_WINDING_LEAKAGE_REACTANCE": "6.1789e-2",
+        "FIRST_DAMPER_WINDING_LEAKAGE_REACTANCE_Q_AXIS": "0.32928",
+        "DRIVING_WINDING_RESISTANCE": "1.4068e-3",
+        "FIRST_DAMPER_WINDING_RESISTANCE_Q_AXIS": "1.4145e-2",
+        "STATOR_ROTOR_MUTUAL_INDUCTANCE_D_AXIS": "1.66",
+        "SECOND_DAMPER_WINDING_RESISTANCE_Q_AXIS": "8.1942e-2",
+        "DAMPER_WINDING_RESISTANCE_D_AXIS": "4.0699e-3",
+        "DAMPER_WINDINGS_MUTUAL_INDUCTANCE_Q_AXIS": "0",
+        "DAMPER_WINDING_LEAKAGE_REACTANCE_D_AXIS": "5.4581e-3",
+        "SECOND_DAMPER_WINDING_LEAKAGE_REACTANCE_Q_AXIS": "9.4199e-2",
+        "DAMPER_WINDING_DRIVING_WINDING_MUTUAL_INDUCTANCE_D_AXIS": "0",
+        "DRIVING_WINDING_AUTOMATIC_REGULATION": "enabled",
+        "DEFAULT_DRIVING_WINDING_AUTOMATIC_REGULATION_STATE": "disabled",
+        "INITIAL_ELECTROMOTIVE_FORCE": "0",
+        "CHANNEL_GAIN_BY_VOLTAGE_DEVIATION_COEFFICIENT": "25",
+        "CHANNEL_INTEGRATION_TIME_CONSTANT_FOR_VOLTAGE_DEVIATION_COEFFICIENT": "0.5",
+        "STABILIZATION_CHANNEL_GAIN_BASED_ON_VOLTAGE_CHANGE_RATE": "-10",
+        "STABILIZATION_CHANNEL_TIME_CONSTANT_FOR_VOLTAGE_CHANGE_RATE": "0.06",
+        "STABILIZATION_CHANNEL_GAIN_BASED_ON_DRIVING_CURRENT_CHANGE_RATE": "0.01",
+        "STABILIZATION_CHANNEL_TIME_CONSTANT_ON_DRIVING_CURRENT_CHANGE_RATE": "0.15",
+        "DRIVING_SYSTEM_TIME_CONSTANT": "0.06",
+        "DRIVING_SYSTEM_GAIN": "1",
+        "DRIVING_SYSTEM_UPPER_LIMIT": "100",
+        "DRIVING_SYSTEM_LOWER_LIMIT": "-100",
+        "VOLTAGE_SETPOINT": "1",
+        "SPEED_AUTOMATIC_REGULATION": "enabled",
+        "DEFAULT_SPEED_AUTOMATIC_REGULATION_STATE": "disabled",
+        "TURBINE_TIME_CONSTANT": "1",
+        "TURBINE_POWER_PU": "1",
+        "TURBINE_INITIAL_STATE": "0",
+        "SPEED_RELAY_GAIN": "20",
+        "FLAP_STATE_UPPER_LIMIT": "1",
+        "FLAP_STATE_LOWER_LIMIT": "0",
+        "POWER_AUTOMATIC_REGULATION": "disabled",
+        "DEFAULT_AUTOMATIC_SYSTEM_STATE": "disabled",
+        "POWER_SETPOINT": "1",
+        "INTEGRATION_OF_POWER_REGULATION_CONSTANT": "20",
+        "FREQUENCY_SETPOINT": "1",
+        "ACTIVE_POWER": "10",
+        "REACTIVE_POWER_MIN": "7",
+        "REACTIVE_POWER_MAX": "15",
+        "NAME": "Синхронный генератор",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "VOLTAGE": {
+          "value": "1",
+          "min": 0,
+          "max": 10000000
+        },
+        "DRIVING_ELECTROMOTIVE_FORCE": {
+          "value": "1.0",
+          "min": 0,
+          "max": 10000000
+        },
+        "SPEED": {
+          "value": "1",
+          "min": 0,
+          "max": 10000000
+        },
+        "MOMENT": {
+          "value": "1",
+          "min": 0,
+          "max": 10000000
+        },
+        "POWER": {
+          "value": "1.0",
+          "min": 0,
+          "max": 10000000
+        },
+        "DRIVING_WINDING_AUTOMATIC_REGULATION": {
+          "value": "disabled",
+          "min": "NaN",
+          "max": "NaN"
+        },
+        "SPEED_AUTOMATIC_REGULATION": {
+          "value": "disabled",
+          "min": "NaN",
+          "max": "NaN"
+        },
+        "POWER_AUTOMATIC_REGULATION": {
+          "value": "disabled",
+          "min": "NaN",
+          "max": "NaN"
+        }
+      },
+      "ports": [
+        {
+          "id": "b71dc9c1-0ff1-42a5-91ec-6efd800b3e11",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "44263150-3a6f-4965-acec-7ca3b615fd35",
+          "coords": {
+            "x": 2608.4766052373907,
+            "y": 1015.4452952370372
+          },
+          "alignment": "TOP",
+          "links": [
+            "48f81ace-2cc8-4729-bed8-20bec5244910"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Синхронный генератор",
+      "substationId": "noId"
+    },
+    "9c37800a-447c-4e3f-9570-f636895acb62": {
+      "id": "9c37800a-447c-4e3f-9570-f636895acb62",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "REACTIVE_POWER_COMPENSATION_SYSTEM",
+      "hour": 0,
+      "coords": {
+        "x": 2713.7173116076574,
+        "y": 1011.5094476177867
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 60
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "10",
+        "RATED_REACTIVE_POWER_OF_REACTOR": "20",
+        "RATED_REACTIVE_POWER_OF_CAPACITOR_BANK": "10",
+        "VOLTAGE_SETPOINT": "1",
+        "GAIN": "2",
+        "INTEGRATION_TIME_CONSTANT": "0.5",
+        "DRIVING_SYSTEM_TIME_CONSTANT": "0.5",
+        "NAME": "СКРМ",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "VOLTAGE": {
+          "value": "1",
+          "min": 0,
+          "max": 9000
+        }
+      },
+      "ports": [
+        {
+          "id": "6d0a2e15-7f5b-4882-acfc-828f44862156",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "9c37800a-447c-4e3f-9570-f636895acb62",
+          "coords": {
+            "x": 2779.2109455291375,
+            "y": 1020.0078413933476
+          },
+          "alignment": "TOP",
+          "links": [
+            "d3376a56-ac97-4434-9afb-c6a3eb9c4478"
+          ],
+          "points": []
+        }
+      ],
+      "name": "СКРМ",
+      "substationId": "noId"
+    },
+    "538aa01d-366c-4635-9cba-8779acb8c057": {
+      "id": "538aa01d-366c-4635-9cba-8779acb8c057",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "THREE_PHASE_CONNECTOR",
+      "hour": 0,
+      "coords": {
+        "x": 2881.4412941273763,
+        "y": 987.8424167516379
+      },
+      "dimensions": {
+        "height": 40,
+        "width": 50
+      },
+      "fields": {
+        "NAME": "Трехфазный коннектор",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "54015a4a-1420-45b5-b155-ef0d34db682c",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "538aa01d-366c-4635-9cba-8779acb8c057",
+          "coords": {
+            "x": 2940.4374704562947,
+            "y": 1018.7812763506844
+          },
+          "alignment": "TOP",
+          "links": [
+            "2d2ed651-1084-4891-850c-0d8a86abcfe0"
+          ],
+          "points": []
+        },
+        {
+          "id": "18836df9-064d-4fe0-a5e2-d43536841e91",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "538aa01d-366c-4635-9cba-8779acb8c057",
+          "coords": {
+            "x": 2920.93748538099,
+            "y": 1058.78121909537
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "be33553c-02c7-4208-8ac6-12c2cab46f86"
+          ],
+          "points": []
+        },
+        {
+          "id": "fdcd1783-c171-4741-babb-fc15c322d4ae",
+          "libId": "THIRD",
+          "locked": false,
+          "selected": false,
+          "parentNode": "538aa01d-366c-4635-9cba-8779acb8c057",
+          "coords": {
+            "x": 2940.4374704562947,
+            "y": 1058.78121909537
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "d1a99bd3-a18d-4551-9d9a-1e9d7f518de6"
+          ],
+          "points": []
+        },
+        {
+          "id": "dbf85e90-98bb-4469-b376-4713a10b44c7",
+          "libId": "FOURTH",
+          "locked": false,
+          "selected": false,
+          "parentNode": "538aa01d-366c-4635-9cba-8779acb8c057",
+          "coords": {
+            "x": 2959.9374555315994,
+            "y": 1058.78121909537
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "2efeb8eb-de34-45a3-b120-2d70106e4998"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Трехфазный коннектор",
+      "substationId": "noId"
+    },
+    "517d1937-1f71-4371-901e-8c4fe26fb506": {
+      "id": "517d1937-1f71-4371-901e-8c4fe26fb506",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "RESISTANCE_1PH",
+      "hour": 0,
+      "coords": {
+        "x": 2863.9966068832773,
+        "y": 1147.580364035138
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "RESISTANCE": "5",
+        "NAME": "Резистор (1ф)",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "RESISTANCE": {
+          "value": "5",
+          "min": 9e-7,
+          "max": 90000000
+        }
+      },
+      "ports": [
+        {
+          "id": "4522a67c-3410-4797-8241-987dbb611294",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "517d1937-1f71-4371-901e-8c4fe26fb506",
+          "coords": {
+            "x": 2917.9922558137387,
+            "y": 1156.0780707893332
+          },
+          "alignment": "TOP",
+          "links": [
+            "be33553c-02c7-4208-8ac6-12c2cab46f86"
+          ],
+          "points": []
+        },
+        {
+          "id": "d155c378-476d-4241-b050-a842abdc1c13",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "517d1937-1f71-4371-901e-8c4fe26fb506",
+          "coords": {
+            "x": 2917.9922558137387,
+            "y": 1216.0781265856751
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "0418c3d5-b53d-4a64-afbb-1a2ea09c0fe1"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Резистор (1ф)",
+      "substationId": "noId"
+    },
+    "5cda1767-c81a-4476-bd4d-59bcd09fe975": {
+      "id": "5cda1767-c81a-4476-bd4d-59bcd09fe975",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "INDUCTANCE_1PH",
+      "hour": 0,
+      "coords": {
+        "x": 2868.2049857415454,
+        "y": 1275.2345227359522
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "INDUCTANCE": "5",
+        "NAME": "Индуктивность (1ф)",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "INDUCTANCE": {
+          "value": "5",
+          "min": 9e-12,
+          "max": 90000000
+        }
+      },
+      "ports": [
+        {
+          "id": "7a28dab4-7471-47b5-9a6f-c5481d7bd4ba",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "5cda1767-c81a-4476-bd4d-59bcd09fe975",
+          "coords": {
+            "x": 2922.2031539141553,
+            "y": 1289.3749748516766
+          },
+          "alignment": "TOP",
+          "links": [
+            "0418c3d5-b53d-4a64-afbb-1a2ea09c0fe1"
+          ],
+          "points": []
+        },
+        {
+          "id": "304e39d9-b758-40fa-bb5c-eef74533f7c3",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "5cda1767-c81a-4476-bd4d-59bcd09fe975",
+          "coords": {
+            "x": 2922.2031539141553,
+            "y": 1349.3749361951427
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "b2df2420-3b15-4378-945c-68e1fabe627e"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Индуктивность (1ф)",
+      "substationId": "noId"
+    },
+    "70cfb3ff-1628-4ebe-b72e-2f4e62a6e44e": {
+      "id": "70cfb3ff-1628-4ebe-b72e-2f4e62a6e44e",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "CAPACITANCE_1PH",
+      "hour": 0,
+      "coords": {
+        "x": 2872.4133645998145,
+        "y": 1422.5277827753532
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "CAPACITANCE": "1e-5",
+        "NAME": "Емкость (1ф)",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "CAPACITANCE": {
+          "value": "1e-5",
+          "min": 9e-20,
+          "max": 90000000
+        }
+      },
+      "ports": [
+        {
+          "id": "3713cf2f-5ca0-4c80-90af-ac7ff49021cb",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "70cfb3ff-1628-4ebe-b72e-2f4e62a6e44e",
+          "coords": {
+            "x": 2926.4063068787723,
+            "y": 1431.0234021754002
+          },
+          "alignment": "TOP",
+          "links": [
+            "b2df2420-3b15-4378-945c-68e1fabe627e"
+          ],
+          "points": []
+        },
+        {
+          "id": "5f8fbdfd-3838-42e5-ba1b-20b4a0e7c49e",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "70cfb3ff-1628-4ebe-b72e-2f4e62a6e44e",
+          "coords": {
+            "x": 2926.4063068787723,
+            "y": 1491.0234579717421
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "3afc1b92-d053-4fb3-9c42-0402df74e1fb"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Емкость (1ф)",
+      "substationId": "noId"
+    },
+    "a2f10dd0-1743-4bfc-a2cb-c8886f497d2e": {
+      "id": "a2f10dd0-1743-4bfc-a2cb-c8886f497d2e",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "CIRCUIT_BREAKER_1PH",
+      "hour": 0,
+      "coords": {
+        "x": 2872.4133645998145,
+        "y": 1572.6266287202666
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100",
+        "NAME": "Выключатель (1ф)",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "POSITION": {
+          "value": "enabled",
+          "min": "NaN",
+          "max": "NaN"
+        }
+      },
+      "ports": [
+        {
+          "id": "10f1cd43-83ef-4965-91a1-d49bb46598ae",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a2f10dd0-1743-4bfc-a2cb-c8886f497d2e",
+          "coords": {
+            "x": 2926.906340402248,
+            "y": 1583.2812487519454
+          },
+          "alignment": "TOP",
+          "links": [
+            "3afc1b92-d053-4fb3-9c42-0402df74e1fb"
+          ],
+          "points": []
+        },
+        {
+          "id": "c681f9cc-6de0-4d29-8e70-1714a3777d51",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "a2f10dd0-1743-4bfc-a2cb-c8886f497d2e",
+          "coords": {
+            "x": 2926.906340402248,
+            "y": 1643.2813045482874
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "f21c59fb-f126-48ee-bce5-1189e167ca82"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Выключатель (1ф)",
+      "substationId": "noId"
+    },
+    "91e84c2e-1e8c-45c4-8082-a8bc69be0ed0": {
+      "id": "91e84c2e-1e8c-45c4-8082-a8bc69be0ed0",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "DISCONNECTOR_1PH",
+      "hour": 0,
+      "coords": {
+        "x": 2889.5245364108396,
+        "y": 1730.8366464762048
+      },
+      "dimensions": {
+        "height": 55,
+        "width": 17
+      },
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100",
+        "NAME": "Разъединитель (1ф)",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "POSITION": {
+          "value": "enabled",
+          "min": "NaN",
+          "max": "NaN"
+        }
+      },
+      "ports": [
+        {
+          "id": "6a5a21e1-c5ba-474c-9cc9-27c3bade1ca2",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "91e84c2e-1e8c-45c4-8082-a8bc69be0ed0",
+          "coords": {
+            "x": 2932.5234529147374,
+            "y": 1747.4218337974028
+          },
+          "alignment": "TOP",
+          "links": [
+            "f21c59fb-f126-48ee-bce5-1189e167ca82"
+          ],
+          "points": []
+        },
+        {
+          "id": "6ff7b655-3de5-4403-a9e4-a73383206c94",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "91e84c2e-1e8c-45c4-8082-a8bc69be0ed0",
+          "coords": {
+            "x": 2932.5234529147374,
+            "y": 1802.4219321704873
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "0bdb416b-66c9-43ee-b9f9-03a5bbc62d06"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Разъединитель (1ф)",
+      "substationId": "noId"
+    },
+    "fc541d2a-f787-41e4-b414-e63d8175b679": {
+      "id": "fc541d2a-f787-41e4-b414-e63d8175b679",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "THREE_PHASE_CONNECTOR",
+      "hour": 2,
+      "coords": {
+        "x": 2908.094360229744,
+        "y": 1894.046664232143
+      },
+      "dimensions": {
+        "height": 40,
+        "width": 50
+      },
+      "fields": {
+        "NAME": "Трехфазный коннектор123",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "ddd098d1-228c-4e06-84ce-6e22fee50379",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "fc541d2a-f787-41e4-b414-e63d8175b679",
+          "coords": {
+            "x": 3032.093785324618,
+            "y": 1972.10161165318
+          },
+          "alignment": "TOP",
+          "links": [
+            "4d2666fd-364e-4375-8e03-9d952eee4ff9"
+          ],
+          "points": []
+        },
+        {
+          "id": "51e40fc9-c24f-4542-828b-67e291a195ee",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "fc541d2a-f787-41e4-b414-e63d8175b679",
+          "coords": {
+            "x": 3051.5937703999225,
+            "y": 1932.101574455619
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "0bdb416b-66c9-43ee-b9f9-03a5bbc62d06"
+          ],
+          "points": []
+        },
+        {
+          "id": "57481f6b-cd8b-4a02-ae65-eb76ed68b500",
+          "libId": "THIRD",
+          "locked": false,
+          "selected": false,
+          "parentNode": "fc541d2a-f787-41e4-b414-e63d8175b679",
+          "coords": {
+            "x": 3032.093785324618,
+            "y": 1932.101574455619
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "d1a99bd3-a18d-4551-9d9a-1e9d7f518de6"
+          ],
+          "points": []
+        },
+        {
+          "id": "d698eba3-0368-431b-90fb-2d37d97a8137",
+          "libId": "FOURTH",
+          "locked": false,
+          "selected": false,
+          "parentNode": "fc541d2a-f787-41e4-b414-e63d8175b679",
+          "coords": {
+            "x": 3012.593800249313,
+            "y": 1932.101574455619
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "2efeb8eb-de34-45a3-b120-2d70106e4998"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Трехфазный коннектор123",
+      "substationId": "noId"
+    },
+    "55471a66-5cac-4ede-b78f-a5093472cd7a": {
+      "id": "55471a66-5cac-4ede-b78f-a5093472cd7a",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "LOAD",
+      "hour": 0,
+      "coords": {
+        "x": 2983.5326432340894,
+        "y": 2071.1468139728436
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 20
+      },
+      "fields": {
+        "FREQUENCY": "50",
+        "RATED_VOLTAGE_LINE_TO_LINE": "10",
+        "ACTIVE_POWER": "13.92",
+        "REACTIVE_POWER": "7.89",
+        "ACTIVE_POWER_TO_FREQUENCY_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_VOLTAGE_COEFFICIENT": "2",
+        "ACTIVE_POWER_TO_REACTIVE_POWER_COEFFICIENT": "2",
+        "GROUNDED": "disabled",
+        "NAME": "Нагрузка4546456456",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "ACTIVE_POWER": {
+          "value": "13.92",
+          "min": 1e-7,
+          "max": 10000
+        },
+        "REACTIVE_POWER": {
+          "value": "7.89",
+          "min": 1e-7,
+          "max": 9000
+        }
+      },
+      "ports": [
+        {
+          "id": "136edf75-a4ee-4ada-8573-787a6a4efe07",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "55471a66-5cac-4ede-b78f-a5093472cd7a",
+          "coords": {
+            "x": 3028.0812382629806,
+            "y": 2089.8749022504976
+          },
+          "alignment": "TOP",
+          "links": [
+            "4d2666fd-364e-4375-8e03-9d952eee4ff9"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Нагрузка4546456456",
+      "substationId": "noId"
+    },
+    "1bec22e9-8871-4fbe-a9fb-e3320ec7364b": {
+      "id": "1bec22e9-8871-4fbe-a9fb-e3320ec7364b",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "THREE_PHASE_CONNECTOR",
+      "hour": 0,
+      "coords": {
+        "x": 3137.740401439744,
+        "y": 991.8964300846397
+      },
+      "dimensions": {
+        "height": 40,
+        "width": 50
+      },
+      "fields": {
+        "NAME": "Трехфазный коннекторclone",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "0860e7f7-fc5c-4dc4-96f5-866f42b26f53",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "1bec22e9-8871-4fbe-a9fb-e3320ec7364b",
+          "coords": {
+            "x": 3196.734592799302,
+            "y": 1033.601593703923
+          },
+          "alignment": "TOP",
+          "links": [
+            "d62c1f40-c0c1-46b7-9fa4-c52003487643"
+          ],
+          "points": []
+        },
+        {
+          "id": "13fcfd97-b6ec-479a-837e-bf3d7ec9b2ca",
+          "libId": "SECOND",
+          "locked": false,
+          "selected": false,
+          "parentNode": "1bec22e9-8871-4fbe-a9fb-e3320ec7364b",
+          "coords": {
+            "x": 3177.2342299124953,
+            "y": 1073.6015364486086
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "97473709-7072-4601-94c4-106d0e8e38cb"
+          ],
+          "points": []
+        },
+        {
+          "id": "204c9151-1446-4400-8ca2-f18274d368c8",
+          "libId": "THIRD",
+          "locked": false,
+          "selected": false,
+          "parentNode": "1bec22e9-8871-4fbe-a9fb-e3320ec7364b",
+          "coords": {
+            "x": 3196.734592799302,
+            "y": 1073.6015364486086
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "34a1d143-bc1e-46f4-ace4-ca144bca6840"
+          ],
+          "points": []
+        },
+        {
+          "id": "02c4bfa2-06b5-41fd-a8c1-23b5b5e1e014",
+          "libId": "FOURTH",
+          "locked": false,
+          "selected": false,
+          "parentNode": "1bec22e9-8871-4fbe-a9fb-e3320ec7364b",
+          "coords": {
+            "x": 3216.2345778746067,
+            "y": 1073.6015364486086
+          },
+          "alignment": "BOTTOM",
+          "links": [
+            "45f613c1-1a4f-442e-9e6b-040af8a9ae48"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Трехфазный коннекторclone",
+      "substationId": "noId"
+    },
+    "29b1bda3-1cd5-4051-8595-850cdd6c32ad": {
+      "id": "29b1bda3-1cd5-4051-8595-850cdd6c32ad",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "GROUND_DISCONNECTOR_1PH",
+      "hour": 0,
+      "coords": {
+        "x": 3128.9516232345864,
+        "y": 1190.0152270880715
+      },
+      "dimensions": {
+        "height": 55,
+        "width": 17
+      },
+      "fields": {
+        "POSITION": "on",
+        "RATED_CURRENT": "100",
+        "NAME": "Заземляющий нож (1ф)",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "POSITION": {
+          "value": "enabled",
+          "min": "NaN",
+          "max": "NaN"
+        }
+      },
+      "ports": [
+        {
+          "id": "4a438bfb-3489-46c9-9804-83e4c62df959",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "29b1bda3-1cd5-4051-8595-850cdd6c32ad",
+          "coords": {
+            "x": 3171.945246689873,
+            "y": 1213.7031090284775
+          },
+          "alignment": "TOP",
+          "links": [
+            "97473709-7072-4601-94c4-106d0e8e38cb"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Заземляющий нож (1ф)",
+      "substationId": "noId"
+    },
+    "1c3f983a-d8e7-4116-b30c-0206495dae01": {
+      "id": "1c3f983a-d8e7-4116-b30c-0206495dae01",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "SHORT_CIRCUIT_1PH",
+      "hour": 0,
+      "coords": {
+        "x": 3183.9948075358916,
+        "y": 1185.9677111740878
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "RESISTANCE": "10",
+        "ENABLE_BY_U_ZERO_CROSSING": "disabled",
+        "NAME": "Короткое замыкание (1ф)",
+        "SUBSTATION": "noId"
+      },
+      "controls": {
+        "FAULT": {
+          "value": "disabled",
+          "min": "NaN",
+          "max": "NaN"
+        },
+        "RESISTANCE": {
+          "value": "10",
+          "min": 1e-7,
+          "max": 90000
+        }
+      },
+      "ports": [
+        {
+          "id": "aa701697-a849-47c9-92ca-2f574a835019",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "1c3f983a-d8e7-4116-b30c-0206495dae01",
+          "coords": {
+            "x": 3238.9920537239273,
+            "y": 1211.6249568593203
+          },
+          "alignment": "TOP",
+          "links": [
+            "34a1d143-bc1e-46f4-ace4-ca144bca6840"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Короткое замыкание (1ф)",
+      "substationId": "noId"
+    },
+    "b37472e6-1e39-42be-ba5e-d7c7ee166263": {
+      "id": "b37472e6-1e39-42be-ba5e-d7c7ee166263",
+      "selected": false,
+      "locked": false,
+      "voltageLevelId": "KILOVOLTS_10",
+      "libEquipmentId": "GROUNDING_1PH",
+      "hour": 0,
+      "coords": {
+        "x": 3293.868437428744,
+        "y": 1207.6329339698614
+      },
+      "dimensions": {
+        "height": 60,
+        "width": 40
+      },
+      "fields": {
+        "NAME": "Земля (1ф)",
+        "SUBSTATION": "noId"
+      },
+      "controls": {},
+      "ports": [
+        {
+          "id": "daf26331-09cc-47d9-9b21-280e021024fe",
+          "libId": "FIRST",
+          "locked": false,
+          "selected": false,
+          "parentNode": "b37472e6-1e39-42be-ba5e-d7c7ee166263",
+          "coords": {
+            "x": 3348.3673502450647,
+            "y": 1216.1328148006528
+          },
+          "alignment": "TOP",
+          "links": [
+            "45f613c1-1a4f-442e-9e6b-040af8a9ae48"
+          ],
+          "points": []
+        }
+      ],
+      "name": "Земля (1ф)",
+      "substationId": "noId"
+    }
+  },
+  "links": {
+    "0f17d968-19a2-4ee7-8380-fef3ced05187": {
+      "id": "0f17d968-19a2-4ee7-8380-fef3ced05187",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "645e25e4-0c99-4256-b1e5-d34b1c2560bd",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "f7cc3f5d-60ad-4ea6-8eb7-30f71b0a63eb",
+      "targetPort": "bc733857-3b91-4c86-93d0-339e76ba6017",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "637f4f14-5e68-4b10-a505-841e3e61ad5c",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 926.2000110014429,
+            "y": 944.4499742579911
+          }
+        },
+        {
+          "id": "72de6a63-4672-4b33-98c2-4a14ebc930d3",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 933.9219513704586,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "d9e020e2-d3f6-46c2-9fe0-99067c554139": {
+      "id": "d9e020e2-d3f6-46c2-9fe0-99067c554139",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "ec041ada-3213-4d2a-9276-875812a38957",
+      "target": "32f17d46-32c3-44d7-ad38-008695372786",
+      "sourcePort": "25de3eab-0615-4591-9d73-26065db0033f",
+      "targetPort": "a66844cb-4220-4b80-8ed5-83b307c43585",
+      "voltageLevelId": "KILOVOLTS_110",
+      "points": [
+        {
+          "id": "49f14c1f-08b0-4dc7-81ac-7e120e81492f",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 848.7349417524517,
+            "y": 476.2624743119726
+          }
+        },
+        {
+          "id": "2b8e8fd4-f4e9-4d6d-97b9-69a05ee5522b",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 849.8250341415405,
+            "y": 381.3999944183062
+          }
+        }
+      ]
+    },
+    "b52a60b8-a3f6-4c3d-a07e-cdd63b86c467": {
+      "id": "b52a60b8-a3f6-4c3d-a07e-cdd63b86c467",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "94d097b8-8f44-41b8-9ba6-3e73a59d72ad",
+      "target": "32f17d46-32c3-44d7-ad38-008695372786",
+      "sourcePort": "4fd44629-f820-4831-b3cd-e9948cde5e58",
+      "targetPort": "057b4df2-834b-45c1-9082-08b93c6503da",
+      "voltageLevelId": "KILOVOLTS_110",
+      "points": [
+        {
+          "id": "0bfccd9b-2040-46ff-a457-e475b3f8acc6",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 686.5937218371657,
+            "y": 316.56249853182925
+          }
+        },
+        {
+          "id": "e34bd777-9f1d-4ef6-9b88-4017b28eaa5c",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 686.0234125940128,
+            "y": 381.6015564230835
+          }
+        }
+      ]
+    },
+    "06064f80-5549-4014-a676-e87c4947dff4": {
+      "id": "06064f80-5549-4014-a676-e87c4947dff4",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "f00da769-8fef-4a85-b185-64ff8321281e",
+      "target": "8249827b-96ac-462e-8477-e3b297586557",
+      "sourcePort": "23148795-8007-405d-9d8f-446a005c621f",
+      "targetPort": "37f07ad2-0158-46e9-9667-ececa2dedee1",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "15413c29-7b7a-4df5-ba9f-fcc528a25b04",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 629.9687776552237,
+            "y": 956.1875599231112
+          }
+        },
+        {
+          "id": "a1156cd6-077e-4f86-91c4-27ea6a7e98c3",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 640.6250231530983,
+            "y": 893.0781863527568
+          }
+        }
+      ]
+    },
+    "3520c0b3-e4ed-4cbe-aed4-7db2543e0ce1": {
+      "id": "3520c0b3-e4ed-4cbe-aed4-7db2543e0ce1",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "target": "8249827b-96ac-462e-8477-e3b297586557",
+      "sourcePort": "a335055a-0352-4c17-ada0-b815ff7a47b1",
+      "targetPort": "37f07ad2-0158-46e9-9667-ececa2dedee1",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "98d0db04-fc3d-47d7-84b7-3c6014feb7f6",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 711.9219432750324,
+            "y": 785.7499988467459
+          }
+        },
+        {
+          "id": "656e51e9-3553-46e4-9821-4b434635c54e",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 640.6250231530983,
+            "y": 893.0781863527568
+          }
+        }
+      ]
+    },
+    "5e6d9e11-6d89-4c9d-b08a-cc54fadaa578": {
+      "id": "5e6d9e11-6d89-4c9d-b08a-cc54fadaa578",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "a008c0bc-4fd2-4023-8fb0-f580b1d7e9d4",
+      "target": "8249827b-96ac-462e-8477-e3b297586557",
+      "sourcePort": "5293137d-272e-48fb-9917-325475cba331",
+      "targetPort": "37f07ad2-0158-46e9-9667-ececa2dedee1",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "5611b883-b909-4924-986c-654a4fff94c7",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 794.2343475550215,
+            "y": 960.8281520463908
+          }
+        },
+        {
+          "id": "1130a670-758b-4333-9674-a3c06b2902be",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 640.6250231530983,
+            "y": 893.0781863527568
+          }
+        }
+      ]
+    },
+    "12c127cc-6ab4-445e-857a-a593912dc0a1": {
+      "id": "12c127cc-6ab4-445e-857a-a593912dc0a1",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "349c6942-e101-42ac-bf3f-cd2bfb758f44",
+      "target": "a008c0bc-4fd2-4023-8fb0-f580b1d7e9d4",
+      "sourcePort": "9e888ea8-7912-4afd-bcdc-4d840b1dc686",
+      "targetPort": "450683cc-ea70-4e42-87ec-d54f23a224a6",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "e60e7963-f6a2-4be5-bd25-286f43f7f974",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 785.9531006213474,
+            "y": 1142.0624930062174
+          }
+        },
+        {
+          "id": "f8ba9abe-3627-4cc2-808b-23535bf02644",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 794.2343475550215,
+            "y": 1015.8280744516061
+          }
+        }
+      ]
+    },
+    "3bacf51e-3915-4b8b-b00b-196068b7ccdf": {
+      "id": "3bacf51e-3915-4b8b-b00b-196068b7ccdf",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "ec041ada-3213-4d2a-9276-875812a38957",
+      "target": "0c0a16f6-a82f-4906-a8d0-d90657cfcc0a",
+      "sourcePort": "a0b4af73-8691-4e5a-8b90-8f7e243743f7",
+      "targetPort": "bcb0b4fd-e059-4633-85fa-fbe4b09dafe7",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "34f48b6c-e3c3-4b1d-8419-ee4e4a0f55b1",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 848.9350068019869,
+            "y": 612.4687799819537
+          }
+        },
+        {
+          "id": "5237b8e4-f8b9-450f-8356-8a7bf72c6371",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 742.8593803603823,
+            "y": 663.5156622417012
+          }
+        }
+      ]
+    },
+    "ecd12ae1-123e-4bcb-b2f5-c68407fa0cef": {
+      "id": "ecd12ae1-123e-4bcb-b2f5-c68407fa0cef",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "0c0a16f6-a82f-4906-a8d0-d90657cfcc0a",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "2f4d128e-100d-4838-82bf-7ef9b2061df8",
+      "targetPort": "77631d05-0c1a-4ddd-a2c7-fbeb0d7a80f3",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "7e4c084e-f829-4f1a-a041-b8c5b5bc1d59",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 742.8593803603823,
+            "y": 723.5156961752476
+          }
+        },
+        {
+          "id": "ba0601d1-6c73-4a0b-888c-fbd226a3fb87",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 747.9219484169748,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "f16e4fdb-56ea-4f6a-87d5-1e2e2c5438aa": {
+      "id": "f16e4fdb-56ea-4f6a-87d5-1e2e2c5438aa",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "9ab5dcb8-e835-48d2-a56f-4449d86ba16c",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "94490478-cf0a-4540-aaf1-62c849dab406",
+      "targetPort": "2de69c8f-e51d-4e74-bc88-246818f1d685",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "54ee065a-4baf-4aa2-a0be-fe1ea0cb1ce9",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1241.7281861622212,
+            "y": 941.3281991527053
+          }
+        },
+        {
+          "id": "46cbecc1-c8dc-4255-a9de-8436154e3587",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1243.9219090664938,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "702544d8-ccd9-461c-9593-9ad2a05b46c1": {
+      "id": "702544d8-ccd9-461c-9593-9ad2a05b46c1",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "9ab5dcb8-e835-48d2-a56f-4449d86ba16c",
+      "target": "7d8b266c-7bd2-4355-8a7a-13cec2545945",
+      "sourcePort": "4575a1d2-11e0-4391-84b4-36d920d54b83",
+      "targetPort": "4bed6661-1067-41a5-8b52-3f58660fa054",
+      "voltageLevelId": "KILOVOLTS_110",
+      "points": [
+        {
+          "id": "9e92126c-a048-437d-a4a6-6a68feeace6f",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1310.0781793179508,
+            "y": 984.3281749215641
+          }
+        },
+        {
+          "id": "e9ee55fe-5e67-4667-b81c-ed256c5de1f8",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1598.4280497770446,
+            "y": 1060.5781660360428
+          }
+        }
+      ]
+    },
+    "e785cd85-5daf-4844-a68d-0ce8d79dd957": {
+      "id": "e785cd85-5daf-4844-a68d-0ce8d79dd957",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "9c52e4da-c1e0-4c23-820c-c6c64f3c5aa2",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "9baf45b1-03e6-465c-8a92-504b217f58b7",
+      "targetPort": "6f36f4f9-aa54-4b00-a270-e1dae44e2dae",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "8c49cc9a-8ffe-47dd-9bf4-7e7da19741e8",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1133.9218604270006,
+            "y": 1065.7969261797475
+          }
+        },
+        {
+          "id": "01c3ad32-efff-4585-97ab-8b317d63d389",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1129.9219163968949,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "4557df45-9261-4504-92ce-deb3e53baeae": {
+      "id": "4557df45-9261-4504-92ce-deb3e53baeae",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "7d8b266c-7bd2-4355-8a7a-13cec2545945",
+      "target": "9488f7ae-16ef-4ed4-a287-78bdfd150e61",
+      "sourcePort": "3abc9e4e-69e5-41bf-a681-9c91f219c918",
+      "targetPort": "576baae2-2838-4ff4-b0e9-f92eee024808",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "aaf1529d-178f-42a5-a14f-85c8f6d8431b",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1598.4280497770446,
+            "y": 1196.578138670703
+          }
+        },
+        {
+          "id": "aed6f562-c4ee-4dd5-ab40-ed7fa5cae8dc",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1598.3905763818223,
+            "y": 1389.9687548786726
+          }
+        }
+      ]
+    },
+    "6ddbad53-f90a-41d0-8f2d-b09a5db93582": {
+      "id": "6ddbad53-f90a-41d0-8f2d-b09a5db93582",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "269357e8-cdb9-473c-9c99-b38bf76c20e9",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "6af71f4b-00a4-4ac2-b24c-dc7b1841285e",
+      "targetPort": "7fcfd1d5-8d60-4fb6-af33-f5bf592984f4",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "5b6667f6-3b7c-4020-b5c7-308fd958dfa5",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 999.859401115686,
+            "y": 1185.890656958126
+          }
+        },
+        {
+          "id": "948f06b2-7ef3-47c1-bd9c-5a63415319ea",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1006.9219342484199,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "6eea6330-b8a9-4229-8274-7cb877cfa022": {
+      "id": "6eea6330-b8a9-4229-8274-7cb877cfa022",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "0d4b407d-3fec-4dab-a805-4f087d2b5c4f",
+      "target": "269357e8-cdb9-473c-9c99-b38bf76c20e9",
+      "sourcePort": "6bc6f45b-3958-4685-a059-babba1cdb854",
+      "targetPort": "4534e9e8-5601-436d-a262-7168c099af73",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "fc1483ae-9b1d-4c08-92d4-80ed2b718f90",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 998.1124816441514,
+            "y": 1415.3125672289266
+          }
+        },
+        {
+          "id": "c69fa297-eeb0-4968-bec4-834947ce4b72",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 999.859401115686,
+            "y": 1245.8906285569053
+          }
+        }
+      ]
+    },
+    "ef39bd7c-d013-4b2a-b062-e2b488c7f5cb": {
+      "id": "ef39bd7c-d013-4b2a-b062-e2b488c7f5cb",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "0d20975b-b79f-46ff-8bdf-23c6e46460cf",
+      "target": "9c52e4da-c1e0-4c23-820c-c6c64f3c5aa2",
+      "sourcePort": "41705d04-93e4-405e-8b8f-337ead7bbc33",
+      "targetPort": "87ded952-9392-4aa7-af54-a6f80c5ed9bb",
+      "voltageLevelId": "KILOVOLTS_110",
+      "points": [
+        {
+          "id": "a8507237-a3e8-4233-a50c-27cf437038d3",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1120.565655228105,
+            "y": 1308.6405595068015
+          }
+        },
+        {
+          "id": "80971833-a72c-457d-b737-194fc0cc4e01",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1133.921898310698,
+            "y": 1201.7968650832129
+          }
+        }
+      ]
+    },
+    "c39df26e-d520-4dd0-857c-87d7e8891a4d": {
+      "id": "c39df26e-d520-4dd0-857c-87d7e8891a4d",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "9c52e4da-c1e0-4c23-820c-c6c64f3c5aa2",
+      "target": "035d06ee-53e6-4560-9460-f4decd941829",
+      "sourcePort": "33bd6aa1-05bc-4292-aa02-779fd8273fac",
+      "targetPort": "aeeecdb3-5e47-4152-879c-6776c5ea8bc6",
+      "voltageLevelId": "KILOVOLTS_35",
+      "points": [
+        {
+          "id": "7563bee9-611b-4af9-8e33-03463d60e1af",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1201.921909968932,
+            "y": 1121.7968261853828
+          }
+        },
+        {
+          "id": "077c65ad-2f62-44ce-94cb-0ece516ce858",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1272.4562643640786,
+            "y": 1194.953112257303
+          }
+        }
+      ]
+    },
+    "75ff5da5-9e38-4dc8-8de1-33fac25c45fb": {
+      "id": "75ff5da5-9e38-4dc8-8de1-33fac25c45fb",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "7d8b266c-7bd2-4355-8a7a-13cec2545945",
+      "target": "73d251cd-eb34-4300-baf9-3c5c2eea35d6",
+      "sourcePort": "29013951-aef6-43ee-aa40-65bbb899f25a",
+      "targetPort": "0b929757-05f9-4c0d-b6c7-dedae98a6fd7",
+      "voltageLevelId": "KILOVOLTS_35",
+      "points": [
+        {
+          "id": "29d23537-37b6-4835-a38c-43246689e883",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1684.0780470760292,
+            "y": 1127.0781053421736
+          }
+        },
+        {
+          "id": "572ab33c-6bd9-448b-a633-80b7395f6c05",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1768.0499832564738,
+            "y": 1204.7187225237499
+          }
+        }
+      ]
+    },
+    "efc98222-5f4e-4880-8a42-86a8c0e3f468": {
+      "id": "efc98222-5f4e-4880-8a42-86a8c0e3f468",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "763d7667-eceb-421e-a54f-eaf6a790b1ad",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "8e4d7da8-0f7b-4b34-aaca-302af72a01bd",
+      "targetPort": "66283b27-b1e5-4059-aba5-695936aba837",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "9cb1885b-99a1-4ef3-8e81-1c888e7e5824",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1854.5625124109868,
+            "y": 1305.3436878369512
+          }
+        },
+        {
+          "id": "a40181f2-89ef-4d07-92d4-7d2c5264c91f",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 1854.9219294325635,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "e7b10ab3-ffeb-4526-8ca9-2afad7431119": {
+      "id": "e7b10ab3-ffeb-4526-8ca9-2afad7431119",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "8e902180-f830-4a5a-9423-5d2b7b63222f",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "a5ff7274-059f-4816-b832-4d164a25d3ee",
+      "targetPort": "25911192-b55f-4960-9639-407ff39bf061",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "7532856e-e41c-4f53-99ba-0ae47a95e07b",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2012.578097100019,
+            "y": 1312.8749667499358
+          }
+        },
+        {
+          "id": "d2740f06-d81d-40ec-8a86-33371e2a627d",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2013.921916722981,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "972e8118-f07d-4208-b4ba-51fdfad5912c": {
+      "id": "972e8118-f07d-4208-b4ba-51fdfad5912c",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "0828b74b-a2cd-4e95-802a-5646af314627",
+      "target": "69d7fd8a-2168-400e-8c85-9d87779fbf25",
+      "sourcePort": "26dfc516-7dbc-45b3-a519-3fbcb71ca027",
+      "targetPort": "31d96eb4-2d99-4729-a1ea-907c56dccbeb",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "149d948e-fd29-4351-9f61-7935b98f3aa5",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2431.5155683529424,
+            "y": 1199.2499362523024
+          }
+        },
+        {
+          "id": "1f9d7b86-85c2-4fa7-b6ed-272c6ef30b11",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2427.296915132227,
+            "y": 1121.7812434023385
+          }
+        }
+      ]
+    },
+    "844d6819-9d05-4651-a8bc-4cf9354c9a15": {
+      "id": "844d6819-9d05-4651-a8bc-4cf9354c9a15",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "69d7fd8a-2168-400e-8c85-9d87779fbf25",
+      "target": "bd6a499a-27fd-4e36-ac9e-e13bdc850fdf",
+      "sourcePort": "89c0e7ec-3ae4-40d0-b889-78ba16c0094b",
+      "targetPort": "3a2006c7-66da-433a-9f8d-1c6afe1d9a50",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "d8ce3f0d-0c24-49c5-921f-5e513352bb26",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2427.296915132227,
+            "y": 1061.7811928240442
+          }
+        },
+        {
+          "id": "6d4b9598-2892-4401-8569-f91b1386f9fe",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2407.656272639273,
+            "y": 977.296822816558
+          }
+        }
+      ]
+    },
+    "e51c050f-9d2e-426c-9ff2-a3a290d1e79c": {
+      "id": "e51c050f-9d2e-426c-9ff2-a3a290d1e79c",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "bd6a499a-27fd-4e36-ac9e-e13bdc850fdf",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "b44b3347-406e-4831-bbd9-3f05108fafbb",
+      "targetPort": "d49547b2-98be-4308-8ef0-4991afb3732e",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "b38c397e-8fdc-4515-8f6a-d1a111893a30",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2407.656272639273,
+            "y": 917.2968578579507
+          }
+        },
+        {
+          "id": "b16f81df-7bc1-43aa-a749-b051d414b7db",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2408.921859010958,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "7d33a09c-c80f-49e0-8f6a-d95d3536735d": {
+      "id": "7d33a09c-c80f-49e0-8f6a-d95d3536735d",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "0828b74b-a2cd-4e95-802a-5646af314627",
+      "target": "7d8d1887-fcc0-424f-ab01-7514aa4b3b8d",
+      "sourcePort": "7a1bd21b-d415-4496-a2a6-d3898c3b0c95",
+      "targetPort": "3f12e290-94c6-4e53-beb1-48e78a8b11a9",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "edfb756d-745f-4c4a-9ff6-09a298665ee7",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2431.5155683529424,
+            "y": 1259.2499868305968
+          }
+        },
+        {
+          "id": "ee0b3695-a339-4895-bbd2-c500ecf15818",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2434.8626131594087,
+            "y": 1383.0155562043033
+          }
+        }
+      ]
+    },
+    "48f81ace-2cc8-4729-bed8-20bec5244910": {
+      "id": "48f81ace-2cc8-4729-bed8-20bec5244910",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "44263150-3a6f-4965-acec-7ca3b615fd35",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "b71dc9c1-0ff1-42a5-91ec-6efd800b3e11",
+      "targetPort": "ec837beb-02cc-4fb6-8434-a83923c40fce",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "b7df60dd-0758-4f62-9993-364caf2345cc",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2612.9686861771975,
+            "y": 1017.9374915738834
+          }
+        },
+        {
+          "id": "fcb0217a-1e3b-43f4-b36b-e18094ba08b2",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2617.921892798327,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "d3376a56-ac97-4434-9afb-c6a3eb9c4478": {
+      "id": "d3376a56-ac97-4434-9afb-c6a3eb9c4478",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "9c37800a-447c-4e3f-9570-f636895acb62",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "6d0a2e15-7f5b-4882-acfc-828f44862156",
+      "targetPort": "e42e3d98-2d6c-4f35-a848-b1659b91b204",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "8666a7da-c647-4407-981f-245bd2b586f7",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2783.703075378677,
+            "y": 1022.4999934578235
+          }
+        },
+        {
+          "id": "df165341-6f99-48e1-bcc2-8a645f0d5349",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2786.921889388135,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "2d2ed651-1084-4891-850c-0d8a86abcfe0": {
+      "id": "2d2ed651-1084-4891-850c-0d8a86abcfe0",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "538aa01d-366c-4635-9cba-8779acb8c057",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "54015a4a-1420-45b5-b155-ef0d34db682c",
+      "targetPort": "d5d91d75-e136-42ce-b22e-2832b679effc",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "c51d2586-82a4-48d4-a992-558459101d74",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2944.9376178223374,
+            "y": 1021.2811972125546
+          }
+        },
+        {
+          "id": "971dd260-0068-4d55-84c4-84d33438beaa",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2938.921879614267,
+            "y": 785.7499988467459
+          }
+        }
+      ]
+    },
+    "b2df2420-3b15-4378-945c-68e1fabe627e": {
+      "id": "b2df2420-3b15-4378-945c-68e1fabe627e",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "70cfb3ff-1628-4ebe-b72e-2f4e62a6e44e",
+      "target": "5cda1767-c81a-4476-bd4d-59bcd09fe975",
+      "sourcePort": "3713cf2f-5ca0-4c80-90af-ac7ff49021cb",
+      "targetPort": "304e39d9-b758-40fa-bb5c-eef74533f7c3",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "62c3fc16-082d-4892-9b3c-98da72dc2811",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2930.9062635072933,
+            "y": 1433.5155887854041
+          }
+        },
+        {
+          "id": "d5397d8d-9532-4e05-b773-bfb2db04a434",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2926.703021830248,
+            "y": 1351.8749910638583
+          }
+        }
+      ]
+    },
+    "0418c3d5-b53d-4a64-afbb-1a2ea09c0fe1": {
+      "id": "0418c3d5-b53d-4a64-afbb-1a2ea09c0fe1",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "5cda1767-c81a-4476-bd4d-59bcd09fe975",
+      "target": "517d1937-1f71-4371-901e-8c4fe26fb506",
+      "sourcePort": "7a28dab4-7471-47b5-9a6f-c5481d7bd4ba",
+      "targetPort": "d155c378-476d-4241-b050-a842abdc1c13",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "b8f4a5f9-1291-4ec6-ac08-e958141df6e7",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2926.703021830248,
+            "y": 1291.8749404855641
+          }
+        },
+        {
+          "id": "c1bd9c52-25fa-4e69-ba53-de95cf635511",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2922.4843686095323,
+            "y": 1218.578066887495
+          }
+        }
+      ]
+    },
+    "be33553c-02c7-4208-8ac6-12c2cab46f86": {
+      "id": "be33553c-02c7-4208-8ac6-12c2cab46f86",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "517d1937-1f71-4371-901e-8c4fe26fb506",
+      "target": "538aa01d-366c-4635-9cba-8779acb8c057",
+      "sourcePort": "4522a67c-3410-4797-8241-987dbb611294",
+      "targetPort": "18836df9-064d-4fe0-a5e2-d43536841e91",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "6fd63088-08a2-4f11-a6a6-b048bc128f52",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2922.4843686095323,
+            "y": 1158.5781019288877
+          }
+        },
+        {
+          "id": "8cb11d27-8e7a-4482-b0b9-cc52b6ceb417",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2925.4375628555326,
+            "y": 1061.2812166614697
+          }
+        }
+      ]
+    },
+    "3afc1b92-d053-4fb3-9c42-0402df74e1fb": {
+      "id": "3afc1b92-d053-4fb3-9c42-0402df74e1fb",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "a2f10dd0-1743-4bfc-a2cb-c8886f497d2e",
+      "target": "70cfb3ff-1628-4ebe-b72e-2f4e62a6e44e",
+      "sourcePort": "10f1cd43-83ef-4965-91a1-d49bb46598ae",
+      "targetPort": "5f8fbdfd-3838-42e5-ba1b-20b4a0e7c49e",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "8e232672-4786-4f70-bbe3-46b4a8027a9c",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2931.406282479711,
+            "y": 1585.781212150691
+          }
+        },
+        {
+          "id": "4db97a13-99c9-4cde-9942-a275883f11f9",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2930.9062635072933,
+            "y": 1493.5156393636985
+          }
+        }
+      ]
+    },
+    "f21c59fb-f126-48ee-bce5-1189e167ca82": {
+      "id": "f21c59fb-f126-48ee-bce5-1189e167ca82",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "91e84c2e-1e8c-45c4-8082-a8bc69be0ed0",
+      "target": "a2f10dd0-1743-4bfc-a2cb-c8886f497d2e",
+      "sourcePort": "6a5a21e1-c5ba-474c-9cc9-27c3bade1ca2",
+      "targetPort": "c681f9cc-6de0-4d29-8e70-1714a3777d51",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "56b12089-af69-4a21-ab9d-b192c53ccaa9",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2937.0157418969948,
+            "y": 1749.9061896097382
+          }
+        },
+        {
+          "id": "2f6757f5-6e98-44be-a29f-ce53b6f7df18",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2931.406282479711,
+            "y": 1645.7811771092984
+          }
+        }
+      ]
+    },
+    "0bdb416b-66c9-43ee-b9f9-03a5bbc62d06": {
+      "id": "0bdb416b-66c9-43ee-b9f9-03a5bbc62d06",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "91e84c2e-1e8c-45c4-8082-a8bc69be0ed0",
+      "target": "fc541d2a-f787-41e4-b414-e63d8175b679",
+      "sourcePort": "6ff7b655-3de5-4403-a9e4-a73383206c94",
+      "targetPort": "51e40fc9-c24f-4542-828b-67e291a195ee",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "ec417614-aaf7-49af-9e6a-5e58d6a94abc",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2937.0157418969948,
+            "y": 1804.906221703227
+          }
+        },
+        {
+          "id": "94db12e7-7665-4b41-8434-a8600b81c09f",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3056.093890263344,
+            "y": 1934.5936767322914
+          }
+        }
+      ]
+    },
+    "d1a99bd3-a18d-4551-9d9a-1e9d7f518de6": {
+      "id": "d1a99bd3-a18d-4551-9d9a-1e9d7f518de6",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "fc541d2a-f787-41e4-b414-e63d8175b679",
+      "target": "538aa01d-366c-4635-9cba-8779acb8c057",
+      "sourcePort": "57481f6b-cd8b-4a02-ae65-eb76ed68b500",
+      "targetPort": "fdcd1783-c171-4741-babb-fc15c322d4ae",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "f5fda070-29c7-4979-b5ca-26694f1f3c6e",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3036.593803677275,
+            "y": 1934.5937135785719
+          }
+        },
+        {
+          "id": "cf3f0f07-0f6d-4988-9c81-4d2e2255641e",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2944.937488808952,
+            "y": 1061.2812450334366
+          }
+        }
+      ]
+    },
+    "2efeb8eb-de34-45a3-b120-2d70106e4998": {
+      "id": "2efeb8eb-de34-45a3-b120-2d70106e4998",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "fc541d2a-f787-41e4-b414-e63d8175b679",
+      "target": "538aa01d-366c-4635-9cba-8779acb8c057",
+      "sourcePort": "d698eba3-0368-431b-90fb-2d37d97a8137",
+      "targetPort": "dbf85e90-98bb-4469-b376-4713a10b44c7",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "2ecb44df-31ce-48b3-9c62-6f4cc3ae3690",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3017.0938186019703,
+            "y": 1934.5937135785719
+          }
+        },
+        {
+          "id": "fa739829-6b1a-425d-a456-76833d339e32",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 2964.4374738842566,
+            "y": 1061.2812450334366
+          }
+        }
+      ]
+    },
+    "4d2666fd-364e-4375-8e03-9d952eee4ff9": {
+      "id": "4d2666fd-364e-4375-8e03-9d952eee4ff9",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "55471a66-5cac-4ede-b78f-a5093472cd7a",
+      "target": "fc541d2a-f787-41e4-b414-e63d8175b679",
+      "sourcePort": "136edf75-a4ee-4ada-8573-787a6a4efe07",
+      "targetPort": "ddd098d1-228c-4e06-84ce-6e22fee50379",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "0b028565-53be-448c-8ac3-860280a3c30d",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3032.581256615638,
+            "y": 2092.3749754150017
+          }
+        },
+        {
+          "id": "ccea53f3-ff9c-4ffd-b359-6196316e1eb1",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3036.593803677275,
+            "y": 1974.5936563232576
+          }
+        }
+      ]
+    },
+    "d62c1f40-c0c1-46b7-9fa4-c52003487643": {
+      "id": "d62c1f40-c0c1-46b7-9fa4-c52003487643",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "1bec22e9-8871-4fbe-a9fb-e3320ec7364b",
+      "target": "a1b49f0b-cf00-4636-8d4e-eef8ed7041dd",
+      "sourcePort": "0860e7f7-fc5c-4dc4-96f5-866f42b26f53",
+      "targetPort": "9b7fd594-c0fa-46a2-86e8-61ea641832c8",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "986a989d-af46-43e0-90e3-ad87b17785e7",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3201.234516699083,
+            "y": 1036.1093647777896
+          }
+        },
+        {
+          "id": "e8c2f84f-a315-44c2-ba15-d5c408dc77eb",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3200.8997757079237,
+            "y": 785.7582870865806
+          }
+        }
+      ]
+    },
+    "97473709-7072-4601-94c4-106d0e8e38cb": {
+      "id": "97473709-7072-4601-94c4-106d0e8e38cb",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "29b1bda3-1cd5-4051-8595-850cdd6c32ad",
+      "target": "1bec22e9-8871-4fbe-a9fb-e3320ec7364b",
+      "sourcePort": "4a438bfb-3489-46c9-9804-83e4c62df959",
+      "targetPort": "13fcfd97-b6ec-479a-837e-bf3d7ec9b2ca",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "b73256d6-5f34-4893-a9a3-68f9962598e8",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3176.4376143596055,
+            "y": 1216.2030877401062
+          }
+        },
+        {
+          "id": "973aca2c-4b0f-4081-9016-e145d09c92ce",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3181.734342718028,
+            "y": 1076.109354748913
+          }
+        }
+      ]
+    },
+    "34a1d143-bc1e-46f4-ace4-ca144bca6840": {
+      "id": "34a1d143-bc1e-46f4-ace4-ca144bca6840",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "1c3f983a-d8e7-4116-b30c-0206495dae01",
+      "target": "1bec22e9-8871-4fbe-a9fb-e3320ec7364b",
+      "sourcePort": "aa701697-a849-47c9-92ca-2f574a835019",
+      "targetPort": "204c9151-1446-4400-8ca2-f18274d368c8",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "c6c4a91d-c921-4b59-818a-28c4eba9743e",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3243.4844213936594,
+            "y": 1214.1093508464735
+          }
+        },
+        {
+          "id": "1d467a4f-9e84-416b-bd43-bc35041656e4",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3201.234516699083,
+            "y": 1076.109354748913
+          }
+        }
+      ]
+    },
+    "45f613c1-1a4f-442e-9e6b-040af8a9ae48": {
+      "id": "45f613c1-1a4f-442e-9e6b-040af8a9ae48",
+      "alignmentType": "RECTANGULAR",
+      "locked": false,
+      "selected": false,
+      "source": "b37472e6-1e39-42be-ba5e-d7c7ee166263",
+      "target": "1bec22e9-8871-4fbe-a9fb-e3320ec7364b",
+      "sourcePort": "daf26331-09cc-47d9-9b21-280e021024fe",
+      "targetPort": "02c4bfa2-06b5-41fd-a8c1-23b5b5e1e014",
+      "voltageLevelId": "KILOVOLTS_10",
+      "points": [
+        {
+          "id": "a1cec522-6bdb-46da-8c0b-21a050e86cf8",
+          "locked": false,
+          "selected": false,
+          "coords": {
+            "x": 3352.859340103295,
+            "y": 1218.6250011500438
+          }
+        },
+        {
+          "id": "616e3b77-4bfb-4073-af60-0192eab79358",
+          "locked": false,
+          "selected": true,
+          "coords": {
+            "x": 3220.734501774388,
+            "y": 1076.109354748913
+          }
+        }
+      ]
+    }
+  },
+  "substations": [],
+  "transmissionLines": []
+}
